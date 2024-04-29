@@ -33,7 +33,7 @@ HUGO_STATIC_DIR=$HUGO_ROOT_DIR/static
 rm -rf $HUGO_ROOT_DIR
 
 # give access to protected repositories
-grep -qF 'machine github.com login USERNAME password' ~/.netrc || echo "machine github.com login $MAINTENER_PAT password x-oauth-basic" >> $HOME/.netrc
+echo "machine github.com login $MAINTENER_PAT password x-oauth-basic" >> $HOME/.netrc
 
 
 ###############################################################################
