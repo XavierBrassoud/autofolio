@@ -3,7 +3,6 @@
 #
 # REQUIREMENTS
 # 1) Environments Variables:
-#   * MAINTENER_PAT
 #   * GIT_DATE
 #   * BASE_URL
 #
@@ -31,10 +30,6 @@ HUGO_STATIC_DIR=$HUGO_ROOT_DIR/static
 
 # remove previous build
 rm -rf $HUGO_ROOT_DIR
-
-# give access to protected repositories
-grep -qF 'machine github.com login USERNAME password' ~/.netrc || echo "machine github.com login USERNAME password $MAINTENER_PAT" >> ~/.netrc
-chmod 600 ~/.netrc
 
 ###############################################################################
 # STEP 1: Setup the HuGo boilerplate                                          #

@@ -34,6 +34,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.125.4
+      GOPRIVATE: github.com/XavierBrassoud/hugo-theme-vertica-resume
+      GH_ACCESS_TOKEN: ${{ secrets.MAINTENER_PAT }}
     steps:
       - name: Install Hugo CLI
         run: |
@@ -59,13 +61,14 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       
+      - run: git config --global url.https://$MAINTENER_PAT@github.com/.insteadOf https://github.com/
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           TZ: America/Los_Angeles
-          MAINTENER_PAT: ${{ secrets.MAINTENER_PAT }}
           BASE_URL: ${{ steps.pages.outputs.base_url }}/
           GIT_DATE: ${{ github.event.repository.pushed_at }}
         run: .config/setup.sh
