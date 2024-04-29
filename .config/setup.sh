@@ -4,7 +4,6 @@
 # REQUIREMENTS
 # 1) Environments Variables:
 #   * MAINTENER_PAT
-#   * GIT_TAG
 #   * GIT_DATE
 #   * BASE_URL
 #

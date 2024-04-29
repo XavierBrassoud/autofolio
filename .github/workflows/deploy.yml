@@ -65,6 +65,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           TZ: America/Los_Angeles
+          MAINTENER_PAT: ${{ secrets.MAINTENER_PAT }}
           BASE_URL: ${{ steps.pages.outputs.base_url }}/
           GIT_DATE: ${{ github.event.repository.pushed_at }}
         run: .config/setup.sh
