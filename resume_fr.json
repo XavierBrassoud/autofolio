@@ -450,7 +450,7 @@
         "entity": "Solea",
         "type": "informatiques",
         "cover": {
-          "image": "/img/projects/website.png",
+          "image": "img/projects/website.png",
           "icon": "gitlab"
         }
       },
@@ -466,7 +466,7 @@
         "entity": "SwfActionsToJson",
         "type": "informatiques",
         "cover": {
-          "image": "/img/projects/swfactionstojson.png",
+          "image": "img/projects/swfactionstojson.png",
           "icon": "gitlab"
         }
       },
@@ -482,7 +482,7 @@
         "entity": "Portfolio",
         "type": "informatiques",
         "cover": {
-          "image": "/img/projects/website.png",
+          "image": "img/projects/website.png",
           "icon": "gitlab"
         }
       },
@@ -498,7 +498,7 @@
         "entity": "Peugeot BB VT",
         "type": "restaurations",
         "cover": {
-          "image": "/img/projects/bb-vt-1964-thumb.jpg",
+          "image": "img/projects/bb-vt-1964-thumb.jpg",
           "icon": "wrench"
         }
       },
@@ -514,7 +514,7 @@
         "entity": "Peugeot P55",
         "type": "restaurations",
         "cover": {
-          "image": "/img/projects/p55-thumb.jpg",
+          "image": "img/projects/p55-thumb.jpg",
           "icon": "wrench"
         }
       },
@@ -530,7 +530,7 @@
         "entity": "Motobécane 51V",
         "type": "restaurations",
         "cover": {
-          "image": "/img/projects/51V-thumb.jpg",
+          "image": "img/projects/51V-thumb.jpg",
           "icon": "wrench"
         }
       }
