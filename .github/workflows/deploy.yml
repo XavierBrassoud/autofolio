@@ -48,9 +48,9 @@ jobs:
         run: >
           sudo apt install fonts-open-sans
           && mkdir ~/.fonts
-          && wget -O ${{ runner.temp }}/awesome.zip https://fontawesome.com/v4/assets/font-awesome-4.7.0.zip
-          && unzip ${{ runner.temp }}/awesome.zip
-          && cp ${{ runner.temp }}/awesome/fonts/FontAwesome.otf ~/.fonts/
+          && wget -O ${{ runner.temp }}/font-awesome-4.7.0.zip https://fontawesome.com/v4/assets/font-awesome-4.7.0.zip
+          && unzip ${{ runner.temp }}/font-awesome-4.7.0.zip
+          && cp ${{ runner.temp }}/font-awesome-4.7.0/fonts/FontAwesome.otf ~/.fonts/
           && fc-cache -fv
 
       - name: Install LibreOffice
