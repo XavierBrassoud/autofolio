@@ -44,17 +44,17 @@ jobs:
       # - name: Install Dart Sass
       #   run: sudo snap install dart-sass
 
-      - name: Install LibreOffice
-        run: sudo apt install libreoffice
-
       - name: Install fonts
         run: >
           sudo apt install fonts-open-sans
-          && mdkir ~/.fonts
+          && mkdir ~/.fonts
           && wget -O ${{ runner.temp }}/awesome.zip https://fontawesome.com/v4/assets/font-awesome-4.7.0.zip
           && unzip ${{ runner.temp }}/awesome.zip
           && cp ${{ runner.temp }}/awesome/fonts/FontAwesome.otf ~/.fonts/
           && fc-cache -fv
+
+      - name: Install LibreOffice
+        run: sudo apt install libreoffice
 
       - name: Checkout
         uses: actions/checkout@v4
