@@ -61,7 +61,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       
-      - run: git config --global url.https://$MAINTENER_PAT@github.com/.insteadOf https://github.com/
+      - run: git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
 
       - name: Build with Hugo
         env:
