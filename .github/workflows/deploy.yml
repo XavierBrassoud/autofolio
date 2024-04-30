@@ -47,6 +47,15 @@ jobs:
       - name: Install LibreOffice
         run: sudo apt install libreoffice
 
+      - name: Install fonts
+        run: >
+          sudo apt install fonts-open-sans
+          && mdkir ~/.fonts
+          && wget -O ${{ runner.temp }}/awesome.zip https://fontawesome.com/v4/assets/font-awesome-4.7.0.zip
+          && unzip ${{ runner.temp }}/awesome.zip
+          && cp ${{ runner.temp }}/awesome/fonts/FontAwesome.otf ~/.fonts/
+          && fc-cache -fv
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -55,10 +64,10 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
-      - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      # - name: Install Node.js dependencies
+      #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       
       - name: Add SSH Go Module Private Key
         env:
@@ -74,8 +83,8 @@ jobs:
         run: |
           git config --global url."ssh://git@github.com/".insteadOf https://github.com/        
   
-      # Set build date
-      - run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+      - name: Set build date
+        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
 
       - name: Build with Hugo
         env:
