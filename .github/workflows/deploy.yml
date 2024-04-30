@@ -74,6 +74,8 @@ jobs:
         run: |
           git config --global url."ssh://git@github.com/".insteadOf https://github.com/        
   
+      # Set build date
+      - run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
 
       - name: Build with Hugo
         env:
@@ -82,7 +84,7 @@ jobs:
           HUGO_ENV: production
           TZ: America/Los_Angeles
           BASE_URL: ${{ steps.pages.outputs.base_url }}/
-          GIT_DATE: ${{ github.event.repository.pushed_at }}
+          GIT_DATE: ${{ env.NOW }}
         run: .config/setup.sh
 
       - name: Upload artifact
