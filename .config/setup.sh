@@ -16,6 +16,8 @@
 #   * Font Awesome 4.7
 #
 
+set -e # exit on failure (avoid false success)
+
 
 CONF_DIR=.config
 
