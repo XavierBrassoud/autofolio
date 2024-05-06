@@ -29,15 +29,13 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: ${{ inputs.artifact_name }}
-          path: '${{ github.workspace }}/${{ inputs.artifact_name }}'
+          path: ${{ github.workspace }}/${{ inputs.artifact_name }} 
 
       - name: Deploy to PRODUCTION
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        uses: SamKirkland/web-deploy@v1
         with:
-          local-dir: '${{ inputs.artifact_name }}/'
-          server: ${{ secrets.PROD_FTP_SERVER }}
-          username: ${{ secrets.PROD_FTP_USERNAME }}
-          password: ${{ secrets.PROD_FTP_PASSWORD }}
-          protocol: ftps
-          dry-run: true
-  
+          source-path: ${{ inputs.artifact_name }}/
+          target-server: ${{ secrets.PROD_FTP_SERVER }}
+          remote-user: ${{ secrets.PROD_FTP_USERNAME }}
+          private-ssh-key: ${{ secrets.PROD_FTP_PASSWORD }}
+          rsync-options: --dry-run --archive --verbose --compress --delete-after --human-readable
