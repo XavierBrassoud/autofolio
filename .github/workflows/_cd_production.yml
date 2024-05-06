@@ -32,7 +32,7 @@ jobs:
           path: '${{ github.workspace }}/${{ inputs.artifact_name }}'
 
       - name: Deploy to PRODUCTION
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           local-dir: '${{ inputs.artifact_name }}/'
           server: ${{ secrets.PROD_FTP_SERVER }}
