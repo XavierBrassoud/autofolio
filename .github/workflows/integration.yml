@@ -13,6 +13,12 @@ on:
       - main
       - genesis
 
+# PRE-PRODUCTION permissions (depends on github-pages)
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   ci-build:
     uses:
