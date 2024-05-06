@@ -14,12 +14,6 @@ on:
   schedule:
     - cron: "53 7 27 7 *"   # Happy birthday! 🎂
 
-# PRE-PRODUCTION permissions (depends on github-pages)
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   ci-build:
     uses:
@@ -27,6 +21,10 @@ jobs:
     with:
       artifact_name: autofolio
     secrets: inherit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
   cd-preprod:
     if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'github-pages' }}
