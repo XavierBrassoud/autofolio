@@ -28,7 +28,7 @@ jobs:
         run: sudo apt install lftp
 
       - name: Download artifact '${{ inputs.artifact_name }}'
-        uses: actions/download-artifact@4
+        uses: actions/download-artifact@v4
         with:
           name: ${{ inputs.artifact_name }}
 
