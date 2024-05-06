@@ -34,7 +34,7 @@ jobs:
     uses:
       ./.github/workflows/_ci_ui_build.yml
     with:
-      artifact-name: autofolio
+      artifact_name: autofolio
     secrets: inherit
   
   cd-production:
@@ -42,6 +42,6 @@ jobs:
     uses:
       ./.github/workflows/_cd_production.yml
     with:
-      artifact-name: autofolio
+      artifact_name: autofolio
     secrets: inherit
     
