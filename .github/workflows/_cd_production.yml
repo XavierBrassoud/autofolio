@@ -35,8 +35,9 @@ jobs:
 
       - name: Deploy to PRODUCTION
         run: >
+          ssh-keyscan -H ${{ secrets.PROD_FTP_SERVER }} >> ~/.ssh/known_hosts &&
           lftp
-          -e "set dns:order inet; set file:charset utf8; mirror -Rv --parallel=10 -p ${{ inputs.artifact_name }}/ .; bye;"
+          -e "set dns:order inet; set file:charset utf8; mirror --dry-run -Rv --parallel=10 -p ${{ inputs.artifact_name }}/ .; bye;"
           -u ${{ secrets.PROD_FTP_USERNAME }},${{ secrets.PROD_FTP_PASSWORD }}
           sftp://${{ secrets.PROD_FTP_SERVER }}
 
