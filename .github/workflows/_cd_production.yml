@@ -35,6 +35,7 @@ jobs:
 
       - name: Deploy to PRODUCTION
         run: >
+          mkdir -p ~/.ssh && touch ~/.ssh/known_hosts &&
           ssh-keyscan -H ${{ secrets.PROD_FTP_SERVER }} >> ~/.ssh/known_hosts &&
           lftp
           -e "set dns:order inet; set file:charset utf8; mirror --dry-run -Rv --parallel=10 -p ${{ inputs.artifact_name }}/ .; bye;"
