@@ -111,7 +111,7 @@ jobs:
 
       - name: Archive build
         if: success()
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3 # upload-pages-artifact is less permissive than upload-artifact
         with:
           name: ${{ inputs.artifact_name }}
           path: .hugo/public
