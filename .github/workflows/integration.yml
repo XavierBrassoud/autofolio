@@ -13,12 +13,6 @@ on:
       - main
       - genesis
 
-# PRE-PRODUCTION permissions (depends on github-pages)
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   ci-build:
     uses:
@@ -26,10 +20,6 @@ jobs:
     with:
       artifact_name: autofolio
     secrets: inherit
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
 
   cd-preprod:
     needs: [ci-build]
@@ -38,4 +28,8 @@ jobs:
     with:
       artifact_name: autofolio
     secrets: inherit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
  
