@@ -28,13 +28,13 @@ jobs:
         run: sudo apt install lftp
 
       - name: Download artifact '${{ inputs.artifact_name }}'
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@4
         with:
           name: ${{ inputs.artifact_name }}
-          path: ${{ github.workspace }}/${{ inputs.artifact_name }} 
 
       - name: Deploy to PRODUCTION
         run: >
+          tar -xvf artifact.tar -C ${{ github.workspace }}/${{ inputs.artifact_name }} &&
           mkdir -p ~/.ssh && touch ~/.ssh/known_hosts &&
           ssh-keyscan -H ${{ secrets.PROD_FTP_SERVER }} >> ~/.ssh/known_hosts &&
           lftp
