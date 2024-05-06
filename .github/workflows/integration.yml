@@ -26,6 +26,10 @@ jobs:
     with:
       artifact_name: autofolio
     secrets: inherit
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
   cd-preprod:
     needs: [ci-build]
