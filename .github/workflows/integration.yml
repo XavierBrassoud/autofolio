@@ -26,6 +26,6 @@ jobs:
     uses:
       ./.github/workflows/_cd_preprod.yml
     with:
-      artifact-name: autofolio
+      artifact_name: autofolio
     secrets: inherit
  
