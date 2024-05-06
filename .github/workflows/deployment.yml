@@ -1,0 +1,42 @@
+# Allows you to run this workflow manually from the Actions tab
+---
+
+name: Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deploy to:'
+        type: environment
+        required: true
+  
+  schedule:
+    - cron: "53 7 27 7 *"   # Happy birthday! 🎂
+
+jobs:
+  ci-build:
+    uses:
+      ./.github/workflows/_ci_ui_build.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+
+  cd-preprod:
+    if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'github-pages' }}
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_preprod.yml
+    with:
+      artifact-name: autofolio
+    secrets: inherit
+  
+  cd-production:
+    if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'production' }}
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_production.yml
+    with:
+      artifact-name: autofolio
+    secrets: inherit
+           

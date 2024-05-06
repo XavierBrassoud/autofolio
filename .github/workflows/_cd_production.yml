@@ -1,0 +1,43 @@
+---
+name: Deploy to PRODUCTION
+
+on:
+  workflow_call:
+    inputs:
+      artifact_name:
+        required: true
+        type: string
+        description: "Produced name artifact."
+      # To avoid being billed 360 minutes if a step does not terminate
+      timeout:
+        description: "The timeout of the ci job. Default is 25min"
+        default: 25
+        type: number
+
+jobs:
+  cd-production:
+    environment:
+      name: production
+      url: ${{ vars.PROD_BASE_URL }}
+    concurrency:
+      group: production
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Download artifact '${{ inputs.artifact_name }}'
+        uses: actions/download-artifact@master
+        with:
+          name: ${{ inputs.artifact_name }}
+          path: '${{ github.workspace }}/${{ inputs.artifact_name }}'
+
+      - name: Deploy to PRODUCTION
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          local-dir: '${{ inputs.artifact_name }}/'
+          server: ${{ secrets.PROD_FTP_SERVER }}
+          username: ${{ secrets.PROD_FTP_USERNAME }}
+          password: ${{ secrets.PROD_FTP_PASSWORD }}
+          protocol: ftps
+          dry-run: true
+  

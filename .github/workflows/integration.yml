@@ -1,0 +1,31 @@
+# Test new changes against PRE-PROD
+---
+
+name: Integration
+
+on:
+  push:
+    branches:
+      - main
+      - genesis
+  pull_request:
+    branches:
+      - main
+      - genesis
+
+jobs:
+  ci-build:
+    uses:
+      ./.github/workflows/_ci_ui_build.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+
+  cd-preprod:
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_preprod.yml
+    with:
+      artifact-name: autofolio
+    secrets: inherit
+ 
