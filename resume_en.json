@@ -1,529 +1,648 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
-    "basics": {
-      "name": "Xavier",
-      "familyName": "BRASSOUD",
-      "birthDate": "1995-07-27",
-      "birthPlace": "Chambéry, France",
-      "label": "Cloud & DevOps Engineer",
-      "image": "https://raw.githubusercontent.com/XavierBrassoud/portfolio/img/profile.png",
-      "email": "contact@xavierbrassoud.fr",
-      "phone": "",
-      "url": "https://www.xavierbrassoud.fr",
-      "summary": "DevOps by day, developer by night.  \n\n**Open Source** enthusiast, **automation** lover and **micro-services** breeder!",
-      "location": {
-        "countryCode": "FR",
-        "address": "France"
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Xavier",
+    "familyName": "BRASSOUD",
+    "birthDate": "1995-07-27",
+    "birthPlace": "Chambéry, France",
+    "label": "Cloud & DevOps Engineer",
+    "image": "https://raw.githubusercontent.com/XavierBrassoud/portfolio/img/profile.png",
+    "email": "contact@xavierbrassoud.fr",
+    "phone": "",
+    "url": "https://www.xavierbrassoud.fr",
+    "summary": "DevOps by day, developer by night.  \n\n**Open Source** enthusiast, **automation** lover and **micro-services** breeder!",
+    "location": {
+      "countryCode": "FR",
+      "address": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "xavierbrassoud",
+        "url": "https://www.linkedin.com/in/xavierbrassoud/"
       },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "xavierbrassoud",
-          "url": "https://www.linkedin.com/in/xavierbrassoud/"
-        },
-        {
-          "network": "Twitter",
-          "username": "XavierBrassoud",
-          "url": "https://twitter.com/XavierBrassoud"
-        },
-        {
-          "network": "GitHub",
-          "username": "XavierBrassoud",
-          "url": "https://github.com/XavierBrassoud"
-        },
-        {
-          "network": "GitLab",
-          "username": "XavierBrassoud",
-          "url": "https://gitlab.com/XavierBrassoud"
-        },
-        {
-          "network": "Stack-Overflow",
-          "username": "xavier-brassoud",
-          "url": "https://stackoverflow.com/users/9414882/xavier-brassoud"
-        }
+      {
+        "network": "Twitter",
+        "username": "XavierBrassoud",
+        "url": "https://twitter.com/XavierBrassoud"
+      },
+      {
+        "network": "GitHub",
+        "username": "XavierBrassoud",
+        "url": "https://github.com/XavierBrassoud"
+      },
+      {
+        "network": "GitLab",
+        "username": "XavierBrassoud",
+        "url": "https://gitlab.com/XavierBrassoud"
+      },
+      {
+        "network": "Stack-Overflow",
+        "username": "xavier-brassoud",
+        "url": "https://stackoverflow.com/users/9414882/xavier-brassoud"
+      }
+    ],
+    "permits": [
+      {
+        "name": "Car",
+        "alternateName": "B",
+        "icon": "car"
+      },
+      {
+        "name": "Motorcycle",
+        "alternateName": "A",
+        "icon": "motorcycle"
+      }
+    ],
+    "citation": {
+      "author": "Henri-Frédéric Amiel",
+      "quote": "Doing easily what others find difficult is talent; doing what is impossible for talent is genius."
+    }
+  },
+  "work": [
+    {
+      "name": "BXB Services",
+      "position": "Freelance",
+      "startDate": "2024-01-01",
+      "highlights": [
+        "Creation of a sole proprietorship « BXB Services » with the aim of adding value to my skills through application development.",
+        "Activities: freelancing, secondary income (advertising, subscriptions, affiliations)."
       ],
-      "permits": [
-        {
-          "name": "Car",
-          "alternateName": "B",
-          "icon": "car"
-        },
-        {
-          "name": "Motorcycle",
-          "alternateName": "A",
-          "icon": "motorcycle"
-        }
+      "location": "Rumilly, France"
+    },
+    {
+      "name": "Capgemini",
+      "position": "Cloud & DevOps engineer",
+      "startDate": "2019-09-01",
+      "endDate": "2023-12-31",
+      "highlights": [
+        "Design of Docker-contained solutions (compose, SWARM and Kubernetes)",
+        "Building integration pipelines (CI with GitHub Actions, Azure DevOps)",
+        "Building deployment pipelines (CD with Ansible)",
+        "Process automation (Selenium, Ansible)",
+        "Development and architecture: REST API with Django, web portal with Angular",
+        "Set-up of ETLs to collect data from various sources: CMDB, Supervision, databases",
+        "Terraform deployments under Kubernetes or directly in CaaS mode under Azure, AWS and GCP"
       ],
-      "citation": {
-        "author": "Henri-Frédéric Amiel",
-        "quote": "Doing easily what others find difficult is talent; doing what is impossible for talent is genius."
+      "summary": "*First two years of work-study Master TRI*\n\n**12** business sectors within my scope: from energy to the luxury goods industry.\n\n**8 *Move to Cloud*** transitions: existing context, homogenization, deployment.\n\n**1** *reporting* solution implemented, included in offers: **23** subscriber contracts.",
+      "url": "https://www.capgemini.com/",
+      "location": "Bourget-du-Lac, France"
+    },
+    {
+      "name": "Voxity",
+      "position": "Intern",
+      "startDate": "2017-04-01",
+      "endDate": "2017-08-31",
+      "summary": "Second teaching internship for the RIMS professional license.",
+      "highlights": [
+        "Technical support",
+        "Deployment of network and telecom infrastructures"
+      ],
+      "location": "Grenoble, France"
+    },
+    {
+      "name": "Voxity",
+      "position": "Intern",
+      "startDate": "2016-05-01",
+      "endDate": "2016-08-31",
+      "summary": "Development of a Windows WPF application in C# .NET 4.6 for telephone management (VOIP) based on the [Voxity API](https://api.voxity.fr/doc/). Below are the links to the projects I have developed:",
+      "highlights": [
+        "[VoxiLink](https://github.com/voxity/vox-api-winapp) (client application)",
+        "[Voxity.API.NET](https://github.com/voxity/Voxity.API.NET) (library for the Voxity API)"
+      ],
+      "location": "Grenoble, France"
+    },
+    {
+      "name": "Transdev",
+      "position": "Intern",
+      "startDate": "2015-02-01",
+      "endDate": "2015-04-30",
+      "summary": "Second year internship for my BTS SIO.",
+      "highlights": [
+        "Installation and configuration of a redundant topology (STP) and a virtualization server",
+        "Service migration for server decommissioning",
+        "User support"
+      ],
+      "url": "https://www.transdev.com/",
+      "location": "Chambéry, France"
+    },
+    {
+      "name": "Transdev",
+      "position": "Intern",
+      "startDate": "2014-06-01",
+      "endDate": "2014-06-30",
+      "highlights": [
+        "Development of a printer management process."
+      ],
+      "summary": "First year internship in BTS SIO.",
+      "url": "https://www.transdev.com/",
+      "location": "Chambéry, France"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Savoie Mont Blanc University",
+      "location": "Chambéry, France",
+      "area": "Computer Science",
+      "studyType": "Master's degree: Telecommunications, Networks and Computing",
+      "startDate": "2018-09-01",
+      "endDate": "2021-08-31",
+      "score": "Magna Cum Laude",
+      "courses": [],
+      "summary": "3-year studies over the 2018-2021 period at the Savoie Mont Blanc University (*Chambéry, France*) for the telecommunications, networks and computer science **master's degree**.",
+      "url": "https://scem-tri.univ-smb.fr/"
+    },
+    {
+      "institution": "Grenoble Alpes University",
+      "location": "Grenoble, France",
+      "area": "Computer Science",
+      "studyType": "Professional Bachelor's degree: CNMS",
+      "startDate": "2016-09-01",
+      "endDate": "2017-06-30",
+      "score": "with honours",
+      "courses": [],
+      "summary": "Studies completed during the 2016-2017 year at the Grenoble Alpes University (*Grenoble, France*) for the **C**omputer **N**etwork **M**obility and **S**ecurity (**CNMS**) **professional bachelor's degree**.",
+      "url": "https://www.iut-rt.net/lp-rims/"
+    },
+    {
+      "institution": "Aristide Bergès High School",
+      "location": "Grenoble, France",
+      "area": "Computer Science",
+      "studyType": "BTEC Higher National Diploma: network and computer science",
+      "startDate": "2013-09-01",
+      "endDate": "2015-06-30",
+      "score": "with honours",
+      "courses": [],
+      "summary": "Studies completed during the period 2013-2015 at the Aristide Bergès High School (*Grenoble, France*), Diploma of Higher Education - Computer Services for Organizations with a specialization in Infrastructure, Systems and Networking Solutions. \n\nIn addition, I consolidated my knowledge during the summer of 2014, during which I validated my Cisco CCNA1 and CCNA2 skills at Glyndwr University (England).",
+      "url": "https://aristide-berges.ent.auvergnerhonealpes.fr/etudiants-et-bts/bts-services-informatiques-aux-organisations/"
+    },
+    {
+      "institution": "Granier High School",
+      "location": "Chambéry, France",
+      "area": "Computer Science",
+      "studyType": "High School Diploma",
+      "startDate": "2012-09-01",
+      "endDate": "2013-06-30",
+      "score": "with honours",
+      "courses": [],
+      "summary": "High School Diploma completed during the year 2012-2013 at the Granier High School (*Chambéry, France*), with a specialization in Information Systems Management."
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Cisco CISCO CCNA 1 & 2",
+      "issuer": "Glyndŵr University",
+      "date": "2014-07-31",
+      "url": "https://www.netacad.com/fr/courses/networking/ccna-introduction-networks"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Asterisk: PJSIP/LDAP pairing",
+      "publisher": "Medium",
+      "releaseDate": "2019-06-02",
+      "url": "https://medium.com/@xavier.brassoud/asterisk-setting-up-pjsip-with-ldap-realtime-driver-823a7471108a",
+      "summary": "Guide for setting up LDAP with the PJSIP stack of Asterisk."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Enthusiastic",
+      "level": "",
+      "type": "soft skills",
+      "summary": "In a good mood whatever the situation, I always keep smiling! 😁",
+      "keywords": []
+    },
+    {
+      "name": "Relational skills",
+      "level": "",
+      "type": "soft skills",
+      "summary": "I thrive more easily in a team than in a solo environment. For me, sharing is a source of knowledge and inspiration. So let's discuss!",
+      "keywords": []
+    },
+    {
+      "name": "Creative",
+      "level": "",
+      "type": "soft skills",
+      "summary": "I enjoy designing applications, thinking about sustainable architectures and finding the cleanest solutions.",
+      "keywords": []
+    },
+    {
+      "name": "Docker, Kubernetes",
+      "level": "",
+      "type": "cloud",
+      "summary": "Segmentation of services into containers within a production infrastructure. Setting up containers to host test services during the development phase. Setting up microservices, such as authentication gateways.",
+      "keywords": [
+        "Harbor",
+        "AWS Registry",
+        "SWARM",
+        "Compose",
+        "HELM",
+        "Argo CD",
+        "KeyCloak"
+      ]
+    },
+    {
+      "name": "Git, Continuous Integration (CI)",
+      "level": "",
+      "type": "cloud",
+      "summary": "Code versioning with automated testing (unit and integration tests), quality (lint, static analysis) and security (vulnerability scans) using GitHub, GitLab and/or Jenkins. To give you a reference, this [website](https://www.xavierbrassoud.fr/en/) was developed using this methodology.",
+      "keywords": [
+        "Git",
+        "Ansible",
+        "GitHub",
+        "GitHub-Actions",
+        "GitLab",
+        "Jenkins",
+        "Azure-DevOps"
+      ]
+    },
+    {
+      "name": "IaC, Continuous Deployment (CD)",
+      "level": "",
+      "type": "cloud",
+      "summary": "Terraform deployments on Kubernetes or directly in CaaS mode on Azure, AWS and GCP. Implementation of observability solutions (Prometheus) and cost evaluation (FinOps).",
+      "keywords": [
+        "Terraform",
+        "azure",
+        "AWS",
+        "GCP",
+        "Prometheus",
+        "FinOps"
+      ]
+    },
+    {
+      "name": "Application design",
+      "level": "",
+      "type": "development",
+      "summary": "Specifications analysis, reflection on the GUI and right technologies selection for the design.",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "type": "development",
+      "summary": "Mastery of the SQL language and RDBMS.",
+      "keywords": [
+        "PostGreSQL",
+        "MySQL",
+        "MariaDB",
+        "MS SQL"
+      ]
+    },
+    {
+      "name": "Web",
+      "level": "",
+      "type": "development",
+      "summary": "Design of service management interface: LDAP directory, configuration backup/generator, this Portfolio... Often under Angular combined with Bootstrap.",
+      "keywords": [
+        "angular",
+        "django",
+        "REST API",
+        "bootstrap",
+        "material"
+      ]
+    },
+    {
+      "name": "Object-oriented programming",
+      "level": "",
+      "type": "development",
+      "summary": " I develop my tools in C#, the most recent example is [VoxiLink](https://github.com/voxity/vox-api-winapp), for the Voxity company.",
+      "keywords": [
+        ".NET (c#)",
+        "C#",
+        "Java",
+        "python",
+        "typescript",
+        "Go"
+      ]
+    },
+    {
+      "name": "Windows, Linux, OSX",
+      "level": "",
+      "type": "systems",
+      "summary": "Implementation of clients and/or server services.",
+      "keywords": [
+        "DHCP",
+        "DNS",
+        "LDAP",
+        "Active Directory",
+        "VPN",
+        "Asterisk"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "level": "",
+      "type": "systems",
+      "summary": "automated process development",
+      "keywords": [
+        "Power Shell",
+        "Python",
+        "Bash",
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "level": "",
+      "type": "systems",
+      "summary": "Log management and performance of an Information System",
+      "keywords": [
+        "ELK",
+        "GLPI"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "",
+      "type": "systems",
+      "summary": "Detection of intrusions (pentests), vulnerabilities. As a **DevSecOps**, I have implemented security strategies such as continuous CVE scan followed by continuous remediation..",
+      "keywords": [
+        "Trivy",
+        "Snort",
+        "Kali",
+        "Metasploit"
+      ]
+    },
+    {
+      "name": "Deployments, Backups",
+      "level": "",
+      "type": "systems",
+      "summary": "Management of a set of machines for backups and restores. Deployment of a new OS in an industrialized way.",
+      "keywords": [
+        "Clonezilla",
+        "PXE"
+      ]
+    },
+    {
+      "name": "User management",
+      "level": "",
+      "type": "systems",
+      "summary": "Administration of the resources of one or more domains with different directories.",
+      "keywords": [
+        "LDAP",
+        "Active Directory",
+        "GPO"
+      ]
+    },
+    {
+      "name": "Infrastructure architecture",
+      "level": "",
+      "type": "Networks & Administration",
+      "summary": "Design, maintenance and scalability of a high availability Information System.",
+      "keywords": []
+    },
+    {
+      "name": "LAN and WAN routing",
+      "level": "",
+      "type": "Networks & Administration",
+      "summary": "Implementation of adequate network protocols and filtering systems (firewalls) according to the infrastructure.",
+      "keywords": [
+        "RIP",
+        "OSPF",
+        "EIGRP"
+      ]
+    },
+    {
+      "name": "Telephony",
+      "level": "",
+      "type": "Networks & Administration",
+      "summary": "Adaptation of an existing architecture (T0 or T2) with the SIP telephone technologies.",
+      "keywords": [
+        "ISDN",
+        "VOIP",
+        "SIP",
+        "PJSIP",
+        "Asterisk"
+      ]
+    },
+    {
+      "name": "Protocol analysis",
+      "level": "",
+      "type": "Networks & Administration",
+      "summary": "Detection of possible anomalies on the network with a set of frame analysis tools.",
+      "keywords": [
+        "WireShark",
+        "TcpDump"
+      ]
+    },
+    {
+      "name": "Performance audit",
+      "level": "",
+      "type": "Networks & Administration",
+      "summary": "Connectivity and throughput testing and flow sizing based on services consumption.",
+      "keywords": []
+    },
+    {
+      "name": "Aware of Business Continuity Plans / Disaster Recovery Plans (BCP/DRP)",
+      "level": "",
+      "type": "Networks & Administration",
+      "summary": "Application of the rules of use during modifications in production, because I don't touch the routers on a Friday afternoon!",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native",
+      "language": "French"
+    },
+    {
+      "fluency": "Fluent",
+      "language": "**English**"
+    },
+    {
+      "fluency": "Basic",
+      "language": "Polish"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computer Science",
+      "summary": "Passionate about new technologies, I'm trying to discover this world by all its facets. Besides, I'm probably analyzing a frame or playing with containers!"
+    },
+    {
+      "name": "Mechanical",
+      "summary": "I'm also a fan of vintage French motorcycles, it's breath of fresh air. So when I take my fingers out of the keyboard it's to escape on the roads!\n\nSome restorations : Peugeot BB VT of 1964, Motobébécane(s), Peugeot 125 TCL of 1953."
+    },
+    {
+      "name": "Electronic",
+      "summary": "What better way to transpose your virtual projects into the real world than by combining computer science?"
+    },
+    {
+      "name": "Travel",
+      "summary": "Great traveler!\n\nSome countries visited: Poland (Motherland), Tour of Europe in a VW Combi Split, West Coast of the United States of America, Thailand, Guadeloupe... and many more to visit!"
+    }
+  ],
+  "references": [
+    {
+      "reference": "Dear Sir/Madam,\n\nI had the good fortune to be Xavier BRASSOUD's tutor and team leader. During these 3 years, I have witnessed his intrinsic qualities.\n\nAs a work-study student, he was the driving force behind the creation of a 3-tier application which is now integrated into all our pre-sales, as it sets us apart from our competitors.\n\nFrom a technical point of view, he is one of our best developers on the following technologies: Django, Angular, Containerization, CI/CD.\n\nOn a human level, it's a real pleasure to work with Xavier. He's enterprising, innovative and a strong team player, always there to help his colleagues. He's a serious person who can be relied on to move complicated issues forward.\n\nPlease don't hesitate to contact me if you'd like to find out more about him.\n\nBest regards\n\n",
+      "name": "Raphaël Motais de Narbonne (Capgemini Manager), 2023"
+    }
+  ],
+  "projects": [
+    {
+      "name": "**My Portfolio**",
+      "description": "The site you are currently visiting.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2018-02-07",
+      "endDate": "2018-02-07",
+      "url": "https://github.com/XavierBrassoud/autofolio",
+      "roles": [],
+      "entity": "Portfolio",
+      "type": "Computer Science",
+      "cover": {
+        "image": "img/projects/website.png",
+        "icon": "github"
       }
     },
-    "work": [
-      {
-        "name": "BXB Services",
-        "position": "Freelance",
-        "startDate": "2024-01-01",
-        "highlights": [
-          "Creation of a sole proprietorship « BXB Services » with the aim of adding value to my skills through application development.",
-          "Activities: freelancing, secondary income (advertising, subscriptions, affiliations)."
-        ],
-        "location": "Rumilly, France"
-      },
-      {
-        "name": "Capgemini",
-        "position": "Cloud & DevOps engineer",
-        "startDate": "2019-09-01",
-        "endDate": "2023-12-31",
-        "highlights": [
-          "Design of Docker-contained solutions (compose, SWARM and Kubernetes)",
-          "Building integration pipelines (CI with GitHub Actions, Azure DevOps)",
-          "Building deployment pipelines (CD with Ansible)",
-          "Process automation (Selenium, Ansible)",
-          "Development and architecture: REST API with Django, web portal with Angular",
-          "Set-up of ETLs to collect data from various sources: CMDB, Supervision, databases",
-          "Terraform deployments under Kubernetes or directly in CaaS mode under Azure, AWS and GCP"  
-        ],
-        "summary": "*First two years of work-study Master TRI*\n\n**12** business sectors within my scope: from energy to the luxury goods industry.\n\n**8 *Move to Cloud*** transitions: existing context, homogenization, deployment.\n\n**1** *reporting* solution implemented, included in offers: **23** subscriber contracts.",
-        "url": "https://www.capgemini.com/",
-        "location": "Bourget-du-Lac, France"
-      },
-      {
-        "name": "Voxity",
-        "position": "Intern",
-        "startDate": "2017-04-01",
-        "endDate": "2017-08-31",
-        "summary": "Second teaching internship for the RIMS professional license.",
-        "highlights": [
-          "Technical support",
-          "Deployment of network and telecom infrastructures"
-        ],
-        "location": "Grenoble, France"
-      },
-      {
-        "name": "Voxity",
-        "position": "Intern",
-        "startDate": "2016-05-01",
-        "endDate": "2016-08-31",
-        "summary": "Development of a Windows WPF application in C# .NET 4.6 for telephone management (VOIP) based on the [Voxity API](https://api.voxity.fr/doc/). Below are the links to the projects I have developed:",
-        "highlights": [
-          "[VoxiLink](https://github.com/voxity/vox-api-winapp) (client application)",
-          "[Voxity.API.NET](https://github.com/voxity/Voxity.API.NET) (library for the Voxity API)"
-        ],
-        "location": "Grenoble, France"
-      },
-      {
-        "name": "Transdev",
-        "position": "Intern",
-        "startDate": "2015-02-01",
-        "endDate": "2015-04-30",
-        "summary": "Second year internship for my BTS SIO.",
-        "highlights": [
-          "Installation and configuration of a redundant topology (STP) and a virtualization server",
-          "Service migration for server decommissioning",
-          "User support"
-        ],
-        "url": "https://www.transdev.com/",
-        "location": "Chambéry, France"
-      },
-      {
-        "name": "Transdev",
-        "position": "Intern",
-        "startDate": "2014-06-01",
-        "endDate": "2014-06-30",
-        "highlights": [
-          "Development of a printer management process."
-        ],
-        "summary": "First year internship in BTS SIO.",
-        "url": "https://www.transdev.com/",
-        "location": "Chambéry, France"
+    {
+      "name": "**Web Interface**\n\nLDAP contact directory",
+      "description": "Project carried out for the bachelor studies.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-01-01",
+      "endDate": "2019-05-31",
+      "url": "https://gitlab.com/Solea",
+      "roles": [],
+      "entity": "Solea",
+      "type": "Computer Science",
+      "cover": {
+        "image": "img/projects/website.png",
+        "icon": "gitlab"
       }
-    ],
-    "volunteer": [],
-    "education": [
-      {
-        "institution": "Savoie Mont Blanc University",
-        "location": "Chambéry, France",
-        "area": "Computer Science",
-        "studyType": "Master's degree: Telecommunications, Networks and Computing",
-        "startDate": "2018-09-01",
-        "endDate": "2021-08-31",
-        "score": "Magna Cum Laude",
-        "courses": [],
-        "summary": "3-year studies over the 2018-2021 period at the Savoie Mont Blanc University (*Chambéry, France*) for the telecommunications, networks and computer science **master's degree**.",
-        "url": "https://scem-tri.univ-smb.fr/"
-      },
-      {
-        "institution": "Grenoble Alpes University",
-        "location": "Grenoble, France",
-        "area": "Computer Science",
-        "studyType": "Professional Bachelor's degree: CNMS",
-        "startDate": "2016-09-01",
-        "endDate": "2017-06-30",
-        "score": "with honours",
-        "courses": [],
-        "summary": "Studies completed during the 2016-2017 year at the Grenoble Alpes University (*Grenoble, France*) for the **C**omputer **N**etwork **M**obility and **S**ecurity (**CNMS**) **professional bachelor's degree**.",
-        "url": "https://www.iut-rt.net/lp-rims/"
-      },
-      {
-        "institution": "Aristide Bergès High School",
-        "location": "Grenoble, France",
-        "area": "Computer Science",
-        "studyType": "BTEC Higher National Diploma: network and computer science",
-        "startDate": "2013-09-01",
-        "endDate": "2015-06-30",
-        "score": "with honours",
-        "courses": [],
-        "summary": "Studies completed during the period 2013-2015 at the Aristide Bergès High School (*Grenoble, France*), Diploma of Higher Education - Computer Services for Organizations with a specialization in Infrastructure, Systems and Networking Solutions. \n\nIn addition, I consolidated my knowledge during the summer of 2014, during which I validated my Cisco CCNA1 and CCNA2 skills at Glyndwr University (England).",
-        "url": "https://aristide-berges.ent.auvergnerhonealpes.fr/etudiants-et-bts/bts-services-informatiques-aux-organisations/"
-      },
-      {
-        "institution": "Granier High School",
-        "location": "Chambéry, France",
-        "area": "Computer Science",
-        "studyType": "High School Diploma",
-        "startDate": "2012-09-01",
-        "endDate": "2013-06-30",
-        "score": "with honours",
-        "courses": [],
-        "summary": "High School Diploma completed during the year 2012-2013 at the Granier High School (*Chambéry, France*), with a specialization in Information Systems Management."
+    },
+    {
+      "name": "**SwfActionsToJson .NET**",
+      "description": "SwfActionsToJson is a .NET library which serializing ActionScript code from a SWF file into a formatted JSON object.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2018-02-07",
+      "endDate": "2018-02-07",
+      "url": "https://gitlab.com/XavierBrassoud/SwfActionsToJson",
+      "roles": [],
+      "entity": "SwfActionsToJson",
+      "type": "Computer Science",
+      "cover": {
+        "image": "img/projects/swfactionstojson.png",
+        "icon": "gitlab"
       }
-    ],
-    "awards": [],
-    "certificates": [
-      {
-        "name": "Cisco CISCO CCNA 1 & 2",
-        "issuer": "Glyndŵr University",
-        "date": "2014-07-31",
-        "url": "https://www.netacad.com/fr/courses/networking/ccna-introduction-networks"
+    },
+    {
+      "name": "**Yamaha XJ 51J**\n\nCafe Racer",
+      "description": "Mechanical and aesthetic transformation of a standard 1986 Yamaha into a cafe racer.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2020-06-01",
+      "endDate": "2022-08-01",
+      "url": "img/projects/yamaha-cafe-racer.jpg",
+      "roles": [],
+      "entity": "Yamaha XJ 51J",
+      "type": "mechanical",
+      "cover": {
+        "image": "img/projects/yamaha-cafe-racer-thumb.jpg",
+        "icon": "wrench"
       }
-    ],
-    "publications": [
-      {
-        "name": "Asterisk: PJSIP/LDAP pairing",
-        "publisher": "Medium",
-        "releaseDate": "2019-06-02",
-        "url": "https://medium.com/@xavier.brassoud/asterisk-setting-up-pjsip-with-ldap-realtime-driver-823a7471108a",
-        "summary": "Guide for setting up LDAP with the PJSIP stack of Asterisk."
+    },
+    {
+      "name": "**Peugeot BB VT 1964**\n\nFrom wreck to new",
+      "description": "An authentic 1964 moped out of the barn. Refurbished from 2014 to 2017.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2014-06-01",
+      "endDate": "2017-08-01",
+      "url": "img/projects/bb-vt-1964.jpg",
+      "roles": [],
+      "entity": "Peugeot BB VT",
+      "type": "mechanical",
+      "cover": {
+        "image": "img/projects/bb-vt-1964-thumb.jpg",
+        "icon": "wrench"
       }
-    ],
-    "skills": [
-      {
-        "name": "Enthusiastic",
-        "level": "",
-        "type": "soft skills",
-        "summary": "In a good mood whatever the situation, I always keep smiling! 😁",
-        "keywords": []
-      },
-      {
-        "name": "Relational skills",
-        "level": "",
-        "type": "soft skills",
-        "summary": "I thrive more easily in a team than in a solo environment. For me, sharing is a source of knowledge and inspiration. So let's discuss!",
-        "keywords": []
-      },
-      {
-        "name": "Creative",
-        "level": "",
-        "type": "soft skills",
-        "summary": "I enjoy designing applications, thinking about sustainable architectures and finding the cleanest solutions.",
-        "keywords": []
-      },
-      {
-        "name": "Application design",
-        "level": "",
-        "type": "development",
-        "summary": "Specifications analysis, reflection on the GUI and right technologies selection for the design.",
-        "keywords": []
-      },
-      {
-        "name": "Databases",
-        "level": "",
-        "type": "development",
-        "summary": "Mastery of the SQL language and RDBMS.",
-        "keywords": [
-          "PostGreSQL",
-          "MySQL",
-          "MariaDB",
-          "MS SQL"
-        ]
-      },
-      {
-        "name": "Web",
-        "level": "",
-        "type": "development",
-        "summary": "Design of service management interface: LDAP directory, configuration backup/generator, this Portfolio... Often under Angular combined with Bootstrap.",
-        "keywords": [
-          "angular",
-          "django",
-          "REST API",
-          "bootstrap",
-          "material"
-        ]
-      },
-      {
-        "name": "Object-oriented programming",
-        "level": "",
-        "type": "development",
-        "summary": " I develop my tools in C#, the most recent example is [VoxiLink](https://github.com/voxity/vox-api-winapp), for the Voxity company.",
-        "keywords": [
-          ".NET (c#)",
-          "C#",
-          "Java",
-          "python",
-          "typescript"
-        ]
-      },
-      {
-        "name": "Git, Continuous Integration / Continuous Deployment (CI/CD)",
-        "level": "",
-        "type": "development",
-        "summary": "Code versioning with automated testing (unit and integration tests) and production deployment, using GitLab and/or Jenkins. To give an example, this [website](https://www.xavierbrassoud.fr/) is deployed automatically.",
-        "keywords": [
-          "git", "github", "github-actions", "gitlab", "jenkins", "azure"
-        ]
-      },
-      {
-        "name": "Docker, Kubernetes",
-        "level": "",
-        "type": "development",
-        "summary": "Setting up containers to host test services during the development phase. Segmentation of services into containers within a production infrastructure.",
-        "keywords": []
-      },
-      {
-        "name": "Windows, Linux, OSX",
-        "level": "",
-        "type": "systems",
-        "summary": "Implementation of clients and/or server services.",
-        "keywords": [
-          "DHCP", "DNS", "LDAP", "Active Directory", "VPN", "Asterisk"
-        ]
-      },
-      {
-        "name": "Scripting",
-        "level": "",
-        "type": "systems",
-        "summary": "automated process development",
-        "keywords": [
-          "Power Shell",
-          "Python",
-          "Bash",
-          "Ansible"
-        ]
-      },
-      {
-        "name": "Monitoring",
-        "level": "",
-        "type": "systems",
-        "summary": "Log management and performance of an Information System",
-        "keywords": [
-          "ELK", "GLPI"
-        ]
-      },
-      {
-        "name": "Security",
-        "level": "",
-        "type": "systems",
-        "summary": "Detection of intrusions (pentests), vulnerabilities. As a **DevSecOps**, I have implemented security strategies such as continuous CVE scan followed by continuous remediation..",
-        "keywords": [
-          "Trivy", "Snort", "Kali", "Metasploit"
-        ]
-      },
-      {
-        "name": "Deployments, Backups",
-        "level": "",
-        "type": "systems",
-        "summary": "Management of a set of machines for backups and restores. Deployment of a new OS in an industrialized way.",
-        "keywords": [
-          "Clonezilla", "PXE"
-        ]
-      },
-      {
-        "name": "User management",
-        "level": "",
-        "type": "systems",
-        "summary": "Administration of the resources of one or more domains with different directories.",
-        "keywords": ["LDAP", "Active Directory", "GPO"]
-      },
-      {
-        "name": "Infrastructure architecture",
-        "level": "",
-        "type": "Networks & Administration",
-        "summary": "Design, maintenance and scalability of a high availability Information System.",
-        "keywords": []
-      },
-      {
-        "name": "LAN and WAN routing",
-        "level": "",
-        "type": "Networks & Administration",
-        "summary": "Implementation of adequate network protocols and filtering systems (firewalls) according to the infrastructure.",
-        "keywords": [
-          "RIP", "OSPF", "EIGRP"
-        ]
-      },
-      {
-        "name": "Telephony",
-        "level": "",
-        "type": "Networks & Administration",
-        "summary": "Adaptation of an existing architecture (T0 or T2) with the SIP telephone technologies.",
-        "keywords": ["ISDN", "VOIP", "SIP", "PJSIP", "Asterisk"]
-      },
-      {
-        "name": "Protocol analysis",
-        "level": "",
-        "type": "Networks & Administration",
-        "summary": "Detection of possible anomalies on the network with a set of frame analysis tools.",
-        "keywords": ["WireShark", "TcpDump"]
-      },
-      {
-        "name": "Performance audit",
-        "level": "",
-        "type": "Networks & Administration",
-        "summary": "Connectivity and throughput testing and flow sizing based on services consumption.",
-        "keywords": []
-      },
-      {
-        "name": "Aware of Business Continuity Plans / Disaster Recovery Plans (BCP/DRP)",
-        "level": "",
-        "type": "Networks & Administration",
-        "summary": "Application of the rules of use during modifications in production, because I don't touch the routers on a Friday afternoon!",
-        "keywords": []
+    },
+    {
+      "name": "**Peugeot P55 1952**",
+      "description": "A Peugeot 125 P55 TCL from 1952",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-06-01",
+      "endDate": "2018-08-01",
+      "url": "img/projects/p55.jpg",
+      "roles": [],
+      "entity": "Peugeot P55",
+      "type": "mechanical",
+      "cover": {
+        "image": "img/projects/p55-thumb.jpg",
+        "icon": "wrench"
       }
-    ],
-    "languages": [
-      {
-        "fluency": "Native",
-        "language": "French"
-      },
-      {
-        "fluency": "Fluent",
-        "language": "**English**"
-      },
-      {
-        "fluency": "Basic",
-        "language": "Polish"
+    },
+    {
+      "name": "**Motobécane 51V 1980**",
+      "description": "A Motobécane 51V with variator from 1980.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2019-06-01",
+      "endDate": "2018-08-01",
+      "url": "img/projects/51V.jpg",
+      "roles": [],
+      "entity": "Motobécane 51V",
+      "type": "mechanical",
+      "cover": {
+        "image": "img/projects/51V-thumb.jpg",
+        "icon": "wrench"
       }
-    ],
-    "interests": [
-      {
-        "name": "Computer Science",
-        "summary": "Passionate about new technologies, I'm trying to discover this world by all its facets. Besides, I'm probably analyzing a frame or playing with containers!"
-      },
-      {
-        "name": "Restoration of vintage motorcycles",
-        "summary": "I'm also a fan of vintage French motorcycles, it's breath of fresh air. So when I take my fingers out of the keyboard it's to escape on the roads!\n\nSome restorations : Peugeot BB VT of 1964, Motobébécane(s), Peugeot 125 TCL of 1953."
-      },
-      {
-        "name": "Travel",
-        "summary": "Great traveler!\n\nSome countries visited: Poland (Motherland), Tour of Europe in a VW Combi Split, West Coast of the United States of America, Thailand, Guadeloupe... and many more to visit!"
+    },
+    {
+      "name": "**Arduino Epson_PNL_CE02**",
+      "description": "Library to repurposing the control panel of EPSON XP 520/530/540 printers from an Arduino.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2024-04-05",
+      "url": "https://github.com/XavierBrassoud/Arduino_Epson_PNL_CE02",
+      "roles": [],
+      "entity": "Arduino",
+      "type": "electronic",
+      "cover": {
+        "image": "img/projects/electronics.png",
+        "icon": "microchip"
       }
-    ],
-    "references": [
-      {
-        "reference": "Dear Sir/Madam,\n\nI had the good fortune to be Xavier BRASSOUD's tutor and team leader. During these 3 years, I have witnessed his intrinsic qualities.\n\nAs a work-study student, he was the driving force behind the creation of a 3-tier application which is now integrated into all our pre-sales, as it sets us apart from our competitors.\n\nFrom a technical point of view, he is one of our best developers on the following technologies: Django, Angular, Containerization, CI/CD.\n\nOn a human level, it's a real pleasure to work with Xavier. He's enterprising, innovative and a strong team player, always there to help his colleagues. He's a serious person who can be relied on to move complicated issues forward.\n\nPlease don't hesitate to contact me if you'd like to find out more about him.\n\nBest regards\n\n",
-        "name": "Raphaël Motais de Narbonne (Capgemini Manager), 2023"
+    },
+    {
+      "name": "**PS2 MicroSD**",
+      "description": "Implementing a MicroSD interface on a PS2 slim by reverse-engineering the IDE bus.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2024-04-05",
+      "url": "img/projects/ps2-microsd.jpg",
+      "roles": [],
+      "entity": "PS2",
+      "type": "electronic",
+      "cover": {
+        "image": "img/projects/ps2-microsd-thumb.jpg",
+        "icon": "microchip"
       }
-    ],
-    "projects": [
-      {
-        "name": "**Web Interface**\nLDAP contact directory",
-        "description": "Project carried out for the bachelor studies.",
-        "highlights": [],
-        "keywords": [],
-        "startDate": "2019-01-01",
-        "endDate": "2019-05-31",
-        "url": "https://gitlab.com/Solea",
-        "roles": [],
-        "entity": "Solea",
-        "type": "Computer Science",
-        "cover": {
-          "image": "img/projects/website.png",
-          "icon": "gitlab"
-        }
-      },
-      {
-        "name": "**SwfActionsToJson .NET**",
-        "description": "SwfActionsToJson is a .NET library which serializing ActionScript code from a SWF file into a formatted JSON object.",
-        "highlights": [],
-        "keywords": [],
-        "startDate": "2018-02-07",
-        "endDate": "2018-02-07",
-        "url": "https://gitlab.com/XavierBrassoud/SwfActionsToJson",
-        "roles": [],
-        "entity": "SwfActionsToJson",
-        "type": "Computer Science",
-        "cover": {
-          "image": "img/projects/swfactionstojson.png",
-          "icon": "gitlab"
-        }
-      },
-      {
-        "name": "**My Portfolio**",
-        "description": "The site you are currently visiting.",
-        "highlights": [],
-        "keywords": [],
-        "startDate": "2018-02-07",
-        "endDate": "2018-02-07",
-        "url": "https://gitlab.com/XavierBrassoud/Portfolio",
-        "roles": [],
-        "entity": "Portfolio",
-        "type": "Computer Science",
-        "cover": {
-          "image": "img/projects/website.png",
-          "icon": "gitlab"
-        }
-      },
-      {
-        "name": "**Peugeot BB VT 1964**\n\nFrom wreck to new",
-        "description": "An authentic 1964 moped out of the barn. Refurbished from 2014 to 2017.",
-        "highlights": [],
-        "keywords": [],
-        "startDate": "2014-06-01",
-        "endDate": "2017-08-01",
-        "url": "img/projects/bb-vt-1964.jpg",
-        "roles": [],
-        "entity": "Peugeot BB VT",
-        "type": "restorations",
-        "cover": {
-          "image": "img/projects/bb-vt-1964-thumb.jpg",
-          "icon": "wrench"
-        }
-      },
-      {
-        "name": "**Peugeot P55 1952**",
-        "description": "A Peugeot 125 P55 TCL from 1952",
-        "highlights": [],
-        "keywords": [],
-        "startDate": "2019-06-01",
-        "endDate": "2018-08-01",
-        "url": "img/projects/p55.jpg",
-        "roles": [],
-        "entity": "Peugeot P55",
-        "type": "restorations",
-        "cover": {
-          "image": "img/projects/p55-thumb.jpg",
-          "icon": "wrench"
-        }
-      },
-      {
-        "name": "**Motobécane 51V 1980**",
-        "description": "A Motobécane 51V with variator from 1980.",
-        "highlights": [],
-        "keywords": [],
-        "startDate": "2019-06-01",
-        "endDate": "2018-08-01",
-        "url": "img/projects/51V.jpg",
-        "roles": [],
-        "entity": "Motobécane 51V",
-        "type": "restorations",
-        "cover": {
-          "image": "img/projects/51V-thumb.jpg",
-          "icon": "wrench"
-        }
+    },
+    {
+      "name": "**Yamaha XJ 51 instrument panel**",
+      "description": "Adaptation of an instrument panel based on an analog meter.",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "2024-04-05",
+      "url": "img/projects/yamaha-counter.jpg",
+      "roles": [],
+      "entity": "Yamaha",
+      "type": "electronic",
+      "cover": {
+        "image": "img/projects/yamaha-counter.jpg",
+        "icon": "microchip"
       }
-    ],
-    "meta": {
-      "version": "v0.0.0",
-      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
     }
+  ],
+  "meta": {
+    "version": "v0.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }
+}
