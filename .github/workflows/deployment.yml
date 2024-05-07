@@ -1,0 +1,45 @@
+# Allows to deploy manually from the Actions tab to STAGING, PRODUCTION
+---
+
+name: Deployment
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deploy to:'
+        type: environment
+        required: true
+  
+  schedule:
+    - cron: "53 7 27 7 *"   # Happy birthday! 🎂
+
+jobs:
+  ci-build:
+    uses:
+      ./.github/workflows/_ci_ui_build.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+
+  cd-staging:
+    if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'github-pages' }}
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_staging.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+    permissions:
+      pages: write
+      id-token: write
+  
+  cd-production:
+    if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'production' }}
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_production.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+           

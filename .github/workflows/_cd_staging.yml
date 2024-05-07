@@ -1,0 +1,31 @@
+---
+name: Deploy to STAGING
+
+on:
+  workflow_call:
+    inputs:
+      artifact_name:
+        required: true
+        type: string
+        description: "Produced name artifact."
+      # To avoid being billed 360 minutes if a step does not terminate
+      timeout:
+        description: "The timeout of the ci job. Default is 25min"
+        default: 25
+        type: number
+
+jobs:
+  deploy:
+    environment:
+      name: staging
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: staging
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to STAGING (GitHub Pages)
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ inputs.artifact_name }}

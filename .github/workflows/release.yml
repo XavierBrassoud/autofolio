@@ -1,3 +1,5 @@
+name: release-please
+
 on:
   push:
     branches:
@@ -8,18 +10,38 @@ permissions:
   contents: write
   pull-requests: write
 
-name: release-please
-
 jobs:
 
-  release-please:
+  release:
     runs-on: ubuntu-22.04
+    outputs:
+      release_created: ${{ steps.release.outputs.release_created }}
     steps:
       # Add packages to update into release-please-config.json
       - name: Write new version to packages
         uses: google-github-actions/release-please-action@v4
+        id: release
         with:
           token: ${{ secrets.MAINTAINER_PAT }}
           config-file: .config/release-please-config.json
           manifest-file: .config/.release-please-manifest.json
           target-branch: ${{ github.ref_name }}
+
+  # Deploy automatically to PRODUCTION on new release
+  ci-build:
+    needs: [release]
+    if: ${{ needs.release.outputs.release_created }}
+    uses:
+      ./.github/workflows/_ci_ui_build.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+  
+  cd-production:
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_production.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+    

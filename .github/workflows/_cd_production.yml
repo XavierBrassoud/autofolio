@@ -1,0 +1,44 @@
+---
+name: Deploy to PRODUCTION
+
+on:
+  workflow_call:
+    inputs:
+      artifact_name:
+        required: true
+        type: string
+        description: "Produced name artifact."
+      # To avoid being billed 360 minutes if a step does not terminate
+      timeout:
+        description: "The timeout of the ci job. Default is 25min"
+        default: 25
+        type: number
+
+jobs:
+  deploy:
+    environment:
+      name: production
+      url: ${{ vars.PROD_BASE_URL }}
+    concurrency:
+      group: production
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install lftp
+        run: sudo apt install lftp
+
+      - name: Download artifact '${{ inputs.artifact_name }}'
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact_name }}
+
+      - name: Deploy to PRODUCTION
+        run: >
+          mkdir -p ${{ inputs.artifact_name }} ~/.ssh && touch ~/.ssh/known_hosts &&
+          tar -xvf artifact.tar -C ${{ inputs.artifact_name }} &&
+          ssh-keyscan -H ${{ secrets.PROD_FTP_SERVER }} >> ~/.ssh/known_hosts &&
+          lftp
+          -e "set dns:order inet; set file:charset utf8; mirror -Rv --parallel=10 -p ${{ inputs.artifact_name }}/ .; bye;"
+          -u ${{ secrets.PROD_FTP_USERNAME }},${{ secrets.PROD_FTP_PASSWORD }}
+          sftp://${{ secrets.PROD_FTP_SERVER }}
+

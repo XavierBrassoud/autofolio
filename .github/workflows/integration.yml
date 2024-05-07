@@ -1,0 +1,34 @@
+# Test new changes against STAGING
+---
+
+name: Integration
+
+on:
+  push:
+    branches:
+      - main
+      - genesis
+  pull_request:
+    branches:
+      - main
+      - genesis
+
+jobs:
+  ci-build:
+    uses:
+      ./.github/workflows/_ci_ui_build.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+
+  cd-staging:
+    needs: [ci-build]
+    uses:
+      ./.github/workflows/_cd_staging.yml
+    with:
+      artifact_name: autofolio
+    secrets: inherit
+    permissions:
+      pages: write
+      id-token: write
+            
