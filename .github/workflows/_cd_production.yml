@@ -14,6 +14,9 @@ on:
         default: 25
         type: number
 
+env:
+  HUGO_VERSION: 0.125.4
+
 jobs:
   deploy:
     environment:
@@ -24,21 +27,34 @@ jobs:
       cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
-      - name: Install lftp
-        run: sudo apt install lftp
-
       - name: Download artifact '${{ inputs.artifact_name }}'
         uses: actions/download-artifact@v4
         with:
           name: ${{ inputs.artifact_name }}
+          path: .hugo
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+      
+      - name: Distribute with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: America/Los_Angeles
+        run: cd .hugo && hugo --gc --minify --baseURL ${{ vars.PROD_BASE_URL }}
+
+      - name: Install lftp
+        run: sudo apt install lftp
 
       - name: Deploy to PRODUCTION
         run: >
           mkdir -p ${{ inputs.artifact_name }} ~/.ssh && touch ~/.ssh/known_hosts &&
-          tar -xvf artifact.tar -C ${{ inputs.artifact_name }} &&
           ssh-keyscan -H ${{ secrets.PROD_FTP_SERVER }} >> ~/.ssh/known_hosts &&
           lftp
-          -e "set dns:order inet; set file:charset utf8; mirror -Rv --parallel=10 -p ${{ inputs.artifact_name }}/ .; bye;"
+          -e "set dns:order inet; set file:charset utf8; mirror --dry-run -Rv --parallel=10 -p .hugo/public/ .; bye;"
           -u ${{ secrets.PROD_FTP_USERNAME }},${{ secrets.PROD_FTP_PASSWORD }}
           sftp://${{ secrets.PROD_FTP_SERVER }}
 

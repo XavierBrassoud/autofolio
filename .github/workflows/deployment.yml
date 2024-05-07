@@ -23,7 +23,7 @@ jobs:
     secrets: inherit
 
   cd-staging:
-    if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'github-pages' }}
+    if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'staging' }}
     needs: [ci-build]
     uses:
       ./.github/workflows/_cd_staging.yml
