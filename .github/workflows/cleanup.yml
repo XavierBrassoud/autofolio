@@ -1,0 +1,25 @@
+# MAINTENANCE: Remove deployments logs from environment since this feature doesn't exist in GH
+---
+
+name: Cleanup deployments
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Cleanup deployments from:'
+        type: environment
+        required: true
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+      - name: Remove deployments logs from '${{ inputs.environment }}'
+        uses: strumwolf/delete-deployment-environment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: ${{ inputs.environment }}
+          onlyRemoveDeployments: true
