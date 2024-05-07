@@ -1,4 +1,4 @@
-# Allows you to run this workflow manually from the Actions tab
+# Allows to deploy manually from the Actions tab to PRE-PRODUCTION, PRODUCTION
 ---
 
 name: Deployment

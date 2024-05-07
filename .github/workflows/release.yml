@@ -27,7 +27,7 @@ jobs:
           manifest-file: .config/.release-please-manifest.json
           target-branch: ${{ github.ref_name }}
 
-  # Deploy automaticaly to PRODUCTION on new release
+  # Deploy automatically to PRODUCTION on new release
   ci-build:
     needs: [release]
     if: ${{ needs.release.outputs.release_created }}

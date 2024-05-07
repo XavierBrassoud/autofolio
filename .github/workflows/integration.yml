@@ -31,13 +31,4 @@ jobs:
     permissions:
       pages: write
       id-token: write
- 
-  # TODO: Remove when validated
-  cd-production:
-    needs: [ci-build]
-    uses:
-      ./.github/workflows/_cd_production.yml
-    with:
-      artifact_name: autofolio
-    secrets: inherit
-           
+            
