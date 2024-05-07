@@ -1,10 +1,11 @@
 #!/bin/bash
-# setup.sh: Build & configure a ready deployable static website for portfolio.
-#
+# setup.sh: Build & configure a static website for portfolio.
+# deploy with:
+#   > cd .hugo && hugo --gc --minify --baseURL <BASE_URL>
+
 # REQUIREMENTS
 # 1) Environments Variables:
 #   * GIT_DATE
-#   * BASE_URL
 #
 # 2) Programs:
 #   * hugo
@@ -81,11 +82,3 @@ mkdir -p $HUGO_STATIC_DIR/fr
 
 mv $HUGO_ROOT_DIR/resume_en.pdf $HUGO_STATIC_DIR/en/cv.pdf
 mv $HUGO_ROOT_DIR/resume_fr.pdf $HUGO_STATIC_DIR/fr/cv.pdf
-
-
-###############################################################################
-# STEP 5: Build Hugo static website                                           #
-###############################################################################
-cd $HUGO_ROOT_DIR
-hugo --gc --minify --baseURL $BASE_URL 
-cd ..

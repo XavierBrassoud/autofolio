@@ -14,8 +14,62 @@ on:
         default: 25
         type: number
 
+env:
+  HUGO_VERSION: 0.125.4
+
 jobs:
+
+  distribute:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact '${{ inputs.artifact_name }}'
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact_name }}
+          path: .hugo
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Add SSH Go Module Private Key
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null	
+          ssh-add - <<< "${{ secrets.VERTICA_PRIVATE_KEY }}"
+          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> $GITHUB_ENV        
+  
+      - name: Setup access for private go modules
+        run: |
+          git config --global url."ssh://git@github.com/".insteadOf https://github.com/
+
+      - name: Distribute with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: America/Los_Angeles
+        run: cd .hugo && hugo --gc --minify --baseURL ${{ steps.pages.outputs.base_url }}
+
+      - name: Archive dist
+        if: success()
+        uses: actions/upload-pages-artifact@v3 # upload-pages-artifact is less permissive than upload-artifact
+        with:
+          name: ${{ inputs.artifact_name }}_dist
+          path: .hugo/public
+          retention-days: ${{ inputs.artifact_retention }} # trigger manually this workflow if you need a fresh one
+
+
   deploy:
+    needs: [distribute]
     environment:
       name: staging
       url: ${{ steps.deployment.outputs.page_url }}
@@ -28,4 +82,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: ${{ inputs.artifact_name }}
+          artifact_name: ${{ inputs.artifact_name }}_dist
