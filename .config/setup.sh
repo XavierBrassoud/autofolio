@@ -26,6 +26,7 @@ HUGO_ROOT_DIR=.hugo
 HUGO_CONTENT_DIR=$HUGO_ROOT_DIR/content/json_resume
 HUGO_DATA_DIR=$HUGO_ROOT_DIR/data/json_resume
 HUGO_STATIC_DIR=$HUGO_ROOT_DIR/static
+HUGO_LAYOUTS_DIR=$HUGO_ROOT_DIR/layouts
 
 ###############################################################################
 # STEP 0: Requirements                                                        #
@@ -74,11 +75,19 @@ cat $HUGO_DATA_DIR/fr.json | jq '.meta.lastModified = env.GIT_DATE' > $HUGO_DATA
 # STEP 4: Generate PDF from libreoffice docs                                  #
 ###############################################################################
 
-libreoffice --headless --convert-to pdf resume_en.fodp --outdir $HUGO_ROOT_DIR
-libreoffice --headless --convert-to pdf resume_fr.fodp --outdir $HUGO_ROOT_DIR
-
 mkdir -p $HUGO_STATIC_DIR/en
 mkdir -p $HUGO_STATIC_DIR/fr
 
-mv $HUGO_ROOT_DIR/resume_en.pdf $HUGO_STATIC_DIR/en/cv.pdf
-mv $HUGO_ROOT_DIR/resume_fr.pdf $HUGO_STATIC_DIR/fr/cv.pdf
+cp resume_en.fodp $HUGO_LAYOUTS_DIR/index.en.fodp
+cp resume_fr.fodp $HUGO_LAYOUTS_DIR/index.fr.fodp
+
+cd $HUGO_ROOT_DIR
+hugo
+cd ..
+
+libreoffice --headless --convert-to pdf $HUGO_ROOT_DIR/public/en/resume.fodp --outdir $HUGO_STATIC_DIR/en/cv.pdf
+libreoffice --headless --convert-to pdf $HUGO_ROOT_DIR/public/resume.fodp --outdir $HUGO_STATIC_DIR/fr/cv.pdf
+
+rm $HUGO_LAYOUTS_DIR/index.en.fodp
+rm $HUGO_LAYOUTS_DIR/index.fr.fodp
+rm -rf $HUGO_ROOT_DIR/public

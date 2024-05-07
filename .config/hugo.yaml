@@ -14,6 +14,23 @@ languages:
 enableMissingTranslationPlaceholders: true
 enableRobotsTXT: true
 unsafe: true
+
+# LibreOffice templated with Hugo 🤯
+mediaTypes:
+  application/vnd.oasis.opendocument.presentation+xml:
+    suffixes:
+      - fodp
+outputFormats:
+  fodp:
+    mediaType: application/vnd.oasis.opendocument.presentation+xml
+    isHTML: false
+    isPlainText: true
+    baseName: resume
+outputs:
+  home:
+  - html
+  - fodp
+
 # module:
 #   imports:
 #   - path: github.com/XavierBrassoud/hugo-theme-vertica-resume@v1.0.0
