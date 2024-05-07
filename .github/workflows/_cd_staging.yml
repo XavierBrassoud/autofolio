@@ -1,5 +1,5 @@
 ---
-name: Deploy to PRE-PRODUCTION
+name: Deploy to STAGING
 
 on:
   workflow_call:
@@ -15,16 +15,16 @@ on:
         type: number
 
 jobs:
-  cd-preprod:
+  deploy:
     environment:
-      name: github-pages
+      name: staging
       url: ${{ steps.deployment.outputs.page_url }}
     concurrency:
-      group: pre-production
+      group: staging
       cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to PRE-PRODUCTION (GitHub Pages)
+      - name: Deploy to STAGING (GitHub Pages)
         id: deployment
         uses: actions/deploy-pages@v4
         with:

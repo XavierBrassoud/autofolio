@@ -1,4 +1,4 @@
-# Test new changes against PRE-PROD
+# Test new changes against STAGING
 ---
 
 name: Integration
@@ -21,10 +21,10 @@ jobs:
       artifact_name: autofolio
     secrets: inherit
 
-  cd-preprod:
+  cd-staging:
     needs: [ci-build]
     uses:
-      ./.github/workflows/_cd_preprod.yml
+      ./.github/workflows/_cd_staging.yml
     with:
       artifact_name: autofolio
     secrets: inherit

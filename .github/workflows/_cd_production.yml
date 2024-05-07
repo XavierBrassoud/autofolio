@@ -15,7 +15,7 @@ on:
         type: number
 
 jobs:
-  cd-production:
+  deploy:
     environment:
       name: production
       url: ${{ vars.PROD_BASE_URL }}

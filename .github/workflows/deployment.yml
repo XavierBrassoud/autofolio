@@ -1,4 +1,4 @@
-# Allows to deploy manually from the Actions tab to PRE-PRODUCTION, PRODUCTION
+# Allows to deploy manually from the Actions tab to STAGING, PRODUCTION
 ---
 
 name: Deployment
@@ -22,11 +22,11 @@ jobs:
       artifact_name: autofolio
     secrets: inherit
 
-  cd-preprod:
+  cd-staging:
     if: ${{ github.event_name != 'workflow_dispatch' || inputs.environment == 'github-pages' }}
     needs: [ci-build]
     uses:
-      ./.github/workflows/_cd_preprod.yml
+      ./.github/workflows/_cd_staging.yml
     with:
       artifact_name: autofolio
     secrets: inherit
