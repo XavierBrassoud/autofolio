@@ -55,6 +55,7 @@ jobs:
 
 
   deploy:
+    needs: [distribute]
     environment:
       name: staging
       url: ${{ steps.deployment.outputs.page_url }}
