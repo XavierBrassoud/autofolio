@@ -63,7 +63,7 @@ jobs:
         if: success()
         uses: actions/upload-pages-artifact@v3 # upload-pages-artifact is less permissive than upload-artifact
         with:
-          name: ${{ inputs.artifact_name }}
+          name: ${{ inputs.artifact_name }}_dist
           path: .hugo/public
           retention-days: ${{ inputs.artifact_retention }} # trigger manually this workflow if you need a fresh one
 
@@ -82,4 +82,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact_name: ${{ inputs.artifact_name }}
+          artifact_name: ${{ inputs.artifact_name }}_dist
