@@ -1,4 +1,4 @@
-baseURL: https://www.xavierbrassoud.fr/
+baseURL: http://localhost
 defaultContentLanguage: fr
 title: Xavier BRASSOUD - CV & Portfolio
 theme: github.com/XavierBrassoud/hugo-theme-vertica-resume

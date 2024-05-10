@@ -26,6 +26,7 @@ HUGO_ROOT_DIR=.hugo
 HUGO_CONTENT_DIR=$HUGO_ROOT_DIR/content/json_resume
 HUGO_DATA_DIR=$HUGO_ROOT_DIR/data/json_resume
 HUGO_STATIC_DIR=$HUGO_ROOT_DIR/static
+HUGO_ASSETS_DIR=$HUGO_ROOT_DIR/assets
 
 ###############################################################################
 # STEP 0: Requirements                                                        #
@@ -44,17 +45,15 @@ hugo mod init github.com/XavierBrassoud/autofolio
 cd ..
 [ -e $HUGO_ROOT_DIR/hugo.toml ] && rm $HUGO_ROOT_DIR/hugo.toml
 [ -e $HUGO_ROOT_DIR/config.toml ] && rm $HUGO_ROOT_DIR/config.toml
-mkdir -p $HUGO_ROOT_DIR
 mkdir -p $HUGO_CONTENT_DIR
 mkdir -p $HUGO_DATA_DIR
-mkdir -p $HUGO_STATIC_DIR
 
 cp $CONF_DIR/hugo.yaml $HUGO_ROOT_DIR/hugo.yaml
 cp CHANGELOG.md $HUGO_CONTENT_DIR/CHANGELOG.md
 cp resume_en.json $HUGO_DATA_DIR/en.json
 cp resume_fr.json $HUGO_DATA_DIR/fr.json
 cp $CONF_DIR/favicon.ico $HUGO_STATIC_DIR
-cp -r img $HUGO_STATIC_DIR
+cp -r img $HUGO_ASSETS_DIR
 
 # setup the HuGo theme
 cd $HUGO_ROOT_DIR
