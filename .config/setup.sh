@@ -77,6 +77,7 @@ libreoffice --headless --convert-to pdf resume_en.fodp --outdir $HUGO_ROOT_DIR
 libreoffice --headless --convert-to pdf resume_fr.fodp --outdir $HUGO_ROOT_DIR
 
 mkdir -p $HUGO_STATIC_DIR/en
+mkdir -p $HUGO_STATIC_DIR/fr
 
 mv $HUGO_ROOT_DIR/resume_en.pdf $HUGO_STATIC_DIR/en/cv.pdf
-mv $HUGO_ROOT_DIR/resume_fr.pdf $HUGO_STATIC_DIR/cv.pdf  # default language
+mv $HUGO_ROOT_DIR/resume_fr.pdf $HUGO_STATIC_DIR/fr/cv.pdf
