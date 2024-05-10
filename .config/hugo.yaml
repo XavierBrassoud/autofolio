@@ -3,14 +3,13 @@ defaultContentLanguage: fr
 title: Xavier BRASSOUD - CV & Portfolio
 theme: github.com/XavierBrassoud/hugo-theme-vertica-resume
 languages:
-  en:
-    languageName: English
-    weight: 1
-    staticDir2: static/en
   fr:
     languageName: French
+    weight: 1
+  en:
+    languageName: English
     weight: 2
-    staticDir2: static/fr
+    staticDir: static/en
 enableMissingTranslationPlaceholders: true
 enableRobotsTXT: true
 unsafe: true
