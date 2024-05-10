@@ -460,12 +460,12 @@
   ],
   "interests": [
     {
-      "name": "Computer Science",
-      "summary": "Passionate about new technologies, I'm trying to discover this world by all its facets. Besides, I'm probably analyzing a frame or playing with containers!"
-    },
-    {
       "name": "Mechanical",
       "summary": "I'm also a fan of vintage French motorcycles, it's breath of fresh air. So when I take my fingers out of the keyboard it's to escape on the roads!\n\nSome restorations : Peugeot BB VT of 1964, Motobébécane(s), Peugeot 125 TCL of 1953."
+    },
+    {
+      "name": "Computer Science",
+      "summary": "Passionate about new technologies, I'm trying to discover this world by all its facets. Besides, I'm probably analyzing a frame or playing with containers!"
     },
     {
       "name": "Electronic",
