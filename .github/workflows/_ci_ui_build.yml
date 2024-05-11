@@ -19,7 +19,7 @@ on:
         type: number
 
 env:
-  HUGO_VERSION: 0.111.3
+  HUGO_VERSION: 0.125.7
 
 jobs:
   ui-build:
