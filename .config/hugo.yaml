@@ -1,0 +1,17 @@
+baseURL: http://localhost
+defaultContentLanguage: fr
+title: Xavier BRASSOUD - CV & Portfolio
+theme: github.com/XavierBrassoud/hugo-theme-vertica-resume
+languages:
+  fr:
+    languageName: French
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+unsafe: true
+# module:
+#   imports:
+#   - path: github.com/XavierBrassoud/hugo-theme-vertica-resume@v1.0.0

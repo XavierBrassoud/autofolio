@@ -1,0 +1,113 @@
+---
+name: HuGo Build
+
+on:
+  workflow_call:
+    inputs:
+      artifact_name:
+        required: true
+        type: string
+        description: "Produced name artifact."
+      artifact_retention:
+        type: number
+        default: 5
+        description: "Artifact retention days. Default: 5 days"
+      # To avoid being billed 360 minutes if a step does not terminate
+      timeout:
+        description: "The timeout of the ci job. Default is 25min"
+        default: 25
+        type: number
+
+env:
+  HUGO_VERSION: 0.125.7
+
+jobs:
+  ui-build:
+    timeout-minutes: ${{ inputs.timeout }}
+
+    defaults:
+      run:
+        shell: bash
+    
+    env:
+      GOPRIVATE: github.com/XavierBrassoud/hugo-theme-vertica-resume
+
+    runs-on: ubuntu-22.04
+    steps:
+
+      
+      ##############################
+      ### STEP 1 : Requirements  ###
+      ##############################
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+
+      # - name: Install Dart Sass
+      #   run: sudo snap install dart-sass
+
+      - name: Install fonts
+        run: >
+          sudo apt install fonts-open-sans
+          && mkdir ~/.fonts
+          && wget -O ${{ runner.temp }}/font-awesome-4.7.0.zip https://fontawesome.com/v4/assets/font-awesome-4.7.0.zip
+          && unzip ${{ runner.temp }}/font-awesome-4.7.0.zip
+          && cp font-awesome-4.7.0/fonts/FontAwesome.otf ~/.fonts/
+          && fc-cache -fv
+
+      - name: Install LibreOffice
+        run: sudo apt install libreoffice
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      # - name: Install Node.js dependencies
+      #   run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      
+      - name: Add SSH Go Module Private Key
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null	
+          ssh-add - <<< "${{ secrets.VERTICA_PRIVATE_KEY }}"
+          echo "SSH_AUTH_SOCK=$SSH_AUTH_SOCK" >> $GITHUB_ENV        
+  
+      - name: Setup access for private go modules
+        run: |
+          git config --global url."ssh://git@github.com/".insteadOf https://github.com/        
+  
+      - name: Set build date
+        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+
+
+      ##############################
+      ### STEP 2 : Build project ###
+      ##############################
+
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: America/Los_Angeles
+          GIT_DATE: ${{ env.NOW }}
+        run: .config/setup.sh
+
+      #################################
+      ### STEP 3 : Archive artifact ###
+      #################################
+
+      - name: Archive build
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ inputs.artifact_name }}
+          path: .hugo
+          retention-days: ${{ inputs.artifact_retention }} # trigger manually this workflow if you need a fresh one
