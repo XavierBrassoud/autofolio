@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><dc:title>CV - BRASSOUD Xavier</dc:title><meta:initial-creator>BRASSOUD Xavier</meta:initial-creator><meta:keyword>CV</meta:keyword><meta:editing-cycles>225</meta:editing-cycles><meta:creation-date>2018-04-05T10:22:17</meta:creation-date><dc:date>2024-05-07T22:34:37.550228312</dc:date><meta:editing-duration>P4DT4H5M52S</meta:editing-duration><meta:generator>LibreOffice/7.4.7.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:object-count="153"/><meta:user-defined meta:name="AppVersion">16.0000</meta:user-defined><meta:user-defined meta:name="PresentationFormat">Personnalisé</meta:user-defined><meta:user-defined meta:name="Slides" meta:value-type="float">1</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Office Theme" xlink:href=""/></office:meta>
+ <office:meta><dc:title>CV - BRASSOUD Xavier</dc:title><meta:initial-creator>BRASSOUD Xavier</meta:initial-creator><meta:keyword>CV</meta:keyword><meta:editing-cycles>228</meta:editing-cycles><meta:creation-date>2018-04-05T10:22:17</meta:creation-date><dc:date>2024-05-21T19:07:11.737385206</dc:date><meta:editing-duration>P4DT4H8M39S</meta:editing-duration><meta:generator>LibreOffice/7.4.7.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:document-statistic meta:object-count="153"/><meta:user-defined meta:name="AppVersion">16.0000</meta:user-defined><meta:user-defined meta:name="PresentationFormat">Personnalisé</meta:user-defined><meta:user-defined meta:name="Slides" meta:value-type="float">1</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Office Theme" xlink:href=""/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">-3372</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">605</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">15482</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">1043</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">14099</config:config-item>
    <config:config-item config:name="VisibleAreaHeight" config:type="int">9999</config:config-item>
    <config:config-item-map-indexed config:name="Views">
@@ -35,10 +35,10 @@
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-3372</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">605</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">15482</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">1043</config:config-item>
      <config:config-item config:name="VisibleAreaWidth" config:type="int">26943</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">16859</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">16829</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">500</config:config-item>
@@ -121,10 +121,10 @@
   </office:script>
  </office:scripts>
  <office:font-face-decls>
-  <style:font-face style:name="Calibri" svg:font-family="Calibri"/>
+  <style:font-face style:name="Calibri" svg:font-family="Calibri" style:font-pitch="variable"/>
   <style:font-face style:name="Calibri Light" svg:font-family="&apos;Calibri Light&apos;" style:font-pitch="variable"/>
   <style:font-face style:name="Calibri Light1" svg:font-family="&apos;Calibri Light&apos;"/>
-  <style:font-face style:name="Calibri1" svg:font-family="Calibri" style:font-pitch="variable"/>
+  <style:font-face style:name="Calibri1" svg:font-family="Calibri"/>
   <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="FontAwesome" svg:font-family="FontAwesome"/>
   <style:font-face style:name="FontAwesome1" svg:font-family="FontAwesome" style:font-pitch="variable"/>
@@ -157,8 +157,7 @@
   <draw:gradient draw:name="Plein_20_jaune" draw:display-name="Plein jaune" draw:style="linear" draw:start-color="#ffde59" draw:end-color="#b47804" draw:start-intensity="100%" draw:end-intensity="100%" draw:angle="30deg" draw:border="0%"/>
   <draw:gradient draw:name="Plein_20_rouge" draw:display-name="Plein rouge" draw:style="linear" draw:start-color="#ff6d6d" draw:end-color="#c9211e" draw:start-intensity="100%" draw:end-intensity="100%" draw:angle="30deg" draw:border="0%"/>
   <draw:gradient draw:name="Plein_20_vert" draw:display-name="Plein vert" draw:style="linear" draw:start-color="#77bc65" draw:end-color="#127622" draw:start-intensity="100%" draw:end-intensity="100%" draw:angle="30deg" draw:border="0%"/>
-  <draw:fill-image draw:name="avatar" xlink:href="./img/avatar.jpg">
-  </draw:fill-image>
+  <draw:fill-image draw:name="avatar" xlink:href="img/avatar.jpg"></draw:fill-image>
   <draw:marker draw:name="Arrow" svg:viewBox="0 0 20 30" svg:d="M10 0l-10 30h20z"/>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap"/>
@@ -369,19 +368,19 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0cm" fo:line-height="90%" fo:text-align="start" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-family="Calibri" fo:font-size="23.2000007629395pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="23.2000007629395pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="23.2000007629395pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-family="Calibri" fo:font-size="23.2000007629395pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="23.2000007629395pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="23.2000007629395pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="Diapositive_20_de_20_titre-outline2" style:display-name="Diapositive de titre-outline2" style:family="presentation" style:parent-style-name="Diapositive_20_de_20_titre-outline1">
    <style:paragraph-properties fo:margin-top="0.4cm" fo:margin-bottom="0cm" fo:line-height="90%" fo:text-align="start" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-family="Calibri" fo:font-size="16.6000003814697pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="16.6000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="16.6000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-family="Calibri" fo:font-size="16.6000003814697pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="16.6000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="16.6000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="Diapositive_20_de_20_titre-outline3" style:display-name="Diapositive de titre-outline3" style:family="presentation" style:parent-style-name="Diapositive_20_de_20_titre-outline2">
    <style:paragraph-properties fo:margin-top="0.3cm" fo:margin-bottom="0cm" fo:line-height="90%" fo:text-align="start" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-family="Calibri" fo:font-size="14.8999996185303pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14.8999996185303pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14.8999996185303pt" style:font-style-complex="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-family="Calibri" fo:font-size="14.8999996185303pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14.8999996185303pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14.8999996185303pt" style:font-style-complex="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="Diapositive_20_de_20_titre-outline4" style:display-name="Diapositive de titre-outline4" style:family="presentation" style:parent-style-name="Diapositive_20_de_20_titre-outline3">
    <style:paragraph-properties fo:margin-top="0.2cm" fo:margin-bottom="0cm" fo:line-height="90%" fo:text-align="start" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-family="Calibri" fo:font-size="14.8999996185303pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14.8999996185303pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14.8999996185303pt" style:font-style-complex="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-family="Calibri" fo:font-size="14.8999996185303pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14.8999996185303pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14.8999996185303pt" style:font-style-complex="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="Diapositive_20_de_20_titre-outline5" style:display-name="Diapositive de titre-outline5" style:family="presentation" style:parent-style-name="Diapositive_20_de_20_titre-outline4">
    <style:paragraph-properties fo:margin-top="0.1cm" fo:margin-bottom="0cm"/>
@@ -497,7 +496,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-family="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-family="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-family-asian="&apos;Noto Sans CJK SC&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
   </style:style>
   <style:presentation-page-layout style:name="AL0T26">
    <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.231cm"/>
@@ -851,37 +850,37 @@
   <style:style style:name="P11" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#f5f5f5"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#f0f0f0"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#ececec"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P14" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#249991"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P15" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#3b658a"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P16" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#cd5f5f"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P17" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#d5d5d6"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
@@ -933,7 +932,7 @@
   <style:style style:name="P28" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:paragraph-properties fo:text-align="center" style:font-independent-line-spacing="true"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P29" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.1cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
@@ -980,7 +979,8 @@
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" loext:opacity="0%" loext:color-lum-mod="100%" loext:color-lum-off="0%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-size="18pt" fo:letter-spacing="-0.03cm" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="P39" style:family="paragraph">
-   <style:text-properties fo:language="en" fo:country="US"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.051cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:font-size="18pt" fo:language="en" fo:country="US" fo:hyphenate="false" loext:hyphenation-no-caps="false" loext:hyphenation-no-last-word="false"/>
   </style:style>
   <style:style style:name="P40" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
@@ -989,7 +989,6 @@
   </style:style>
   <style:style style:name="P41" style:family="paragraph">
    <style:paragraph-properties fo:text-align="end"/>
-   <style:text-properties fo:language="en" fo:country="US"/>
   </style:style>
   <style:style style:name="P42" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
@@ -1033,20 +1032,24 @@
    <style:text-properties fo:font-size="18pt" fo:language="en" fo:country="US" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="P51" style:family="paragraph">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
+   <style:text-properties fo:font-size="18pt" fo:language="en" fo:country="US" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
+  </style:style>
+  <style:style style:name="P52" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb" style:font-independent-line-spacing="true"/>
    <style:text-properties fo:font-size="18pt" fo:language="en" fo:country="US" fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal" fo:hyphenate="false"/>
   </style:style>
-  <style:style style:name="P52" style:family="paragraph">
+  <style:style style:name="P53" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb"/>
    <style:text-properties fo:font-size="14pt" fo:language="en" fo:country="US" style:font-size-asian="14pt" style:font-size-complex="14pt" fo:hyphenate="false"/>
   </style:style>
-  <style:style style:name="P53" style:family="paragraph">
+  <style:style style:name="P54" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#f9f9f9"/>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb" style:font-independent-line-spacing="true"/>
    <style:text-properties fo:font-size="14pt" fo:language="en" fo:country="US" style:font-size-asian="14pt" style:font-size-complex="14pt" fo:hyphenate="false"/>
   </style:style>
-  <style:style style:name="P54" style:family="paragraph">
+  <style:style style:name="P55" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="justify" fo:text-indent="0cm" style:punctuation-wrap="hanging" style:writing-mode="lr-tb" style:font-independent-line-spacing="true"/>
    <style:text-properties fo:font-size="18pt" fo:language="en" fo:country="US" fo:hyphenate="false"/>
@@ -1058,7 +1061,7 @@
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri Light1" fo:font-size="49.5999984741211pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="49.5999984741211pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="49.5999984741211pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T3" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#8b8b8b" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="9.89999961853027pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="9.89999961853027pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9.89999961853027pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#8b8b8b" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="9.89999961853027pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="9.89999961853027pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9.89999961853027pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans Light" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:background-color="transparent" style:font-name-asian="Open Sans Light3" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-name-complex="Open Sans Light" style:font-size-complex="10pt" style:font-style-complex="normal"/>
@@ -1070,19 +1073,19 @@
    <style:text-properties fo:text-transform="uppercase" fo:color="#2a5479" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#249991" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="FontAwesome1" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#249991" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="FontAwesome1" fo:font-size="14pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties fo:text-transform="uppercase" fo:color="#3b658a" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="14pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:text-transform="uppercase" fo:color="#3b658a" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="14pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="12pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#249991" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="FontAwesome1" fo:font-size="14pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
@@ -1130,43 +1133,43 @@
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#249991" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
    <style:text-properties fo:text-transform="uppercase" fo:color="#2a5479" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="18pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="italic" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="italic" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="italic" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="italic" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-weight-complex="bold" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:text-shadow="none" style:text-underline-style="none" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:text-shadow="none" style:text-underline-style="none" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="italic" fo:text-shadow="none" style:text-underline-style="none" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="italic" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="italic" fo:text-shadow="none" style:text-underline-style="none" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="italic" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans Light1" fo:font-size="10pt" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans Light1" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans" fo:font-size="10pt" fo:language="en" fo:country="US" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans Light" fo:font-size="10pt" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans Light" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-weight="normal" style:font-size-asian="10pt" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans Light1" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+   <style:text-properties fo:color="#ffffff" loext:opacity="100%" style:font-name="Open Sans Light1" fo:font-size="10pt" fo:language="en" fo:country="US" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:color="#249991" loext:opacity="100%" style:font-name="Open Sans" fo:font-size="11pt" fo:font-weight="bold" style:font-size-asian="11pt" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-weight-complex="bold"/>
+   <style:text-properties fo:color="#249991" loext:opacity="100%" style:font-name="Open Sans" fo:font-size="11pt" fo:language="en" fo:country="US" fo:font-weight="bold" style:font-size-asian="11pt" style:font-weight-asian="bold" style:font-size-complex="11pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans Light" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-name-asian="Open Sans Light3" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Open Sans Light" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
@@ -1175,51 +1178,45 @@
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans SemiBold" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-name-asian="Open Sans SemiBold1" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Open Sans SemiBold" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
-  </style:style>
-  <style:style style:name="T43" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="T44" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="T45" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T46" style:family="text">
+  <style:style style:name="T43" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T44" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#cccccc" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="FontAwesome" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="FontAwesome" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FontAwesome" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="T47" style:family="text">
+  <style:style style:name="T45" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="FontAwesome" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="FontAwesome" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FontAwesome" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="T48" style:family="text">
+  <style:style style:name="T46" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="T49" style:family="text">
+  <style:style style:name="T47" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#cccccc" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="FontAwesome" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-name-asian="FontAwesome" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FontAwesome" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T50" style:family="text">
+  <style:style style:name="T48" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T51" style:family="text">
+  <style:style style:name="T49" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="FontAwesome" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FontAwesome" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="T52" style:family="text">
+  <style:style style:name="T50" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-name-asian="FontAwesome" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FontAwesome" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T53" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
+  <style:style style:name="T51" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="normal" style:text-underline-style="none" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T54" style:family="text">
+  <style:style style:name="T52" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="14pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="14pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T55" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+  <style:style style:name="T53" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="en" fo:country="US" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T56" style:family="text">
+  <style:style style:name="T54" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#555555" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="10pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="10pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="T57" style:family="text">
+  <style:style style:name="T55" style:family="text">
    <style:text-properties fo:text-transform="uppercase" fo:color="#999999" loext:opacity="100%" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Open Sans" fo:font-size="12pt" fo:letter-spacing="normal" fo:language="fr" fo:country="FR" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <text:list-style style:name="L1">
@@ -2392,7 +2389,7 @@
       </draw:enhanced-geometry>
      </draw:custom-shape>
     </draw:g>
-    <draw:custom-shape draw:name="Icone formation" draw:style-name="gr15" draw:text-style-name="P25" draw:layer="layout" svg:width="1.077cm" svg:height="1.077cm" svg:x="1.77cm" svg:y="23.561cm">
+    <draw:custom-shape draw:name="Icone formation" draw:style-name="gr15" draw:text-style-name="P25" draw:layer="layout" svg:width="1.077cm" svg:height="1.077cm" svg:x="1.77cm" svg:y="23.861cm">
      <text:p text:style-name="P18"><text:span text:style-name="T7"></text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f4 0 ?f5 ?f8 0 ?f7 ?f5 ?f9 ?f4 ?f11 ?f6 ?f9 ?f11 ?f7 ?f6 ?f8" draw:text-areas="?f5 ?f8 ?f6 ?f9" draw:type="ooxml-ellipse" draw:enhanced-path="M 0 ?f7 Z N" drawooo:enhanced-path="M 0 ?f7 G ?f0 ?f2 ?f12 ?f13 ?f0 ?f2 ?f14 ?f15 ?f0 ?f2 ?f16 ?f17 ?f0 ?f2 ?f18 ?f19 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
@@ -2417,7 +2414,7 @@
       <draw:equation draw:name="f19" draw:formula="(5400000)/60000.0"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="description formation" draw:style-name="gr16" draw:text-style-name="P27" draw:layer="layout" svg:width="16.57cm" svg:height="1.297cm" svg:x="3.402cm" svg:y="23.985cm">
+    <draw:custom-shape draw:name="description formation" draw:style-name="gr16" draw:text-style-name="P27" draw:layer="layout" svg:width="16.57cm" svg:height="1.297cm" svg:x="3.402cm" svg:y="24.285cm">
      <text:list text:style-name="L6">
       <text:list-item>
        <text:p text:style-name="P26"><text:span text:style-name="T8">Development of a Windows WPF application in C# .NET 4.6 for telephone management (VOIP)</text:span></text:p>
@@ -2433,7 +2430,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="Rectangle 111" draw:style-name="gr17" draw:text-style-name="P24" draw:layer="layout" svg:width="16.087cm" svg:height="0.843cm" svg:x="3.413cm" svg:y="23.1cm">
+    <draw:custom-shape draw:name="Rectangle 111" draw:style-name="gr17" draw:text-style-name="P24" draw:layer="layout" svg:width="16.087cm" svg:height="0.843cm" svg:x="3.413cm" svg:y="23.4cm">
      <text:p text:style-name="P23"><text:span text:style-name="T9">VOXITY</text:span><text:span text:style-name="T10"> </text:span><text:span text:style-name="T11">- (Intern) - May 1, 2016 - Aug 31, 2016 &amp; Apr 1, 2017 - Aug 31, 2017 </text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
@@ -2442,11 +2439,11 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:connector draw:name="Connecteur droit 112" draw:style-name="gr13" draw:text-style-name="P22" draw:layer="layout" draw:type="line" svg:x1="3.679cm" svg:y1="23.922cm" svg:x2="20.599cm" svg:y2="23.853cm" svg:d="M3679 23922l16920-69" svg:viewBox="0 0 16921 70">
+    <draw:connector draw:name="Connecteur droit 112" draw:style-name="gr13" draw:text-style-name="P22" draw:layer="layout" draw:type="line" svg:x1="3.679cm" svg:y1="24.222cm" svg:x2="20.599cm" svg:y2="24.153cm" svg:d="M3679 24222l16920-69" svg:viewBox="0 0 16921 70">
      <text:p/>
     </draw:connector>
     <draw:g draw:name="Section formation">
-     <draw:custom-shape draw:name="Icone formation" draw:style-name="gr18" draw:text-style-name="P25" draw:layer="layout" svg:width="1.077cm" svg:height="1.077cm" svg:x="1.77cm" svg:y="26.271cm">
+     <draw:custom-shape draw:name="Icone formation" draw:style-name="gr18" draw:text-style-name="P25" draw:layer="layout" svg:width="1.077cm" svg:height="1.077cm" svg:x="1.77cm" svg:y="26.371cm">
       <text:p text:style-name="P18"><text:span text:style-name="T12"></text:span></text:p>
       <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f4 0 ?f5 ?f8 0 ?f7 ?f5 ?f9 ?f4 ?f11 ?f6 ?f9 ?f11 ?f7 ?f6 ?f8" draw:text-areas="?f5 ?f8 ?f6 ?f9" draw:type="ooxml-ellipse" draw:enhanced-path="M 0 ?f7 Z N" drawooo:enhanced-path="M 0 ?f7 G ?f0 ?f2 ?f12 ?f13 ?f0 ?f2 ?f14 ?f15 ?f0 ?f2 ?f16 ?f17 ?f0 ?f2 ?f18 ?f19 Z N">
        <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
@@ -2471,7 +2468,7 @@
        <draw:equation draw:name="f19" draw:formula="(5400000)/60000.0"/>
       </draw:enhanced-geometry>
      </draw:custom-shape>
-     <draw:custom-shape draw:name="description formation" draw:style-name="gr19" draw:text-style-name="P27" draw:layer="layout" svg:width="16.57cm" svg:height="1.297cm" svg:x="3.402cm" svg:y="26.695cm">
+     <draw:custom-shape draw:name="description formation" draw:style-name="gr19" draw:text-style-name="P27" draw:layer="layout" svg:width="16.57cm" svg:height="1.297cm" svg:x="3.402cm" svg:y="26.795cm">
       <text:list text:style-name="L6">
        <text:list-item>
         <text:p text:style-name="P26"><text:span text:style-name="T13">Service migration for server decommissioning</text:span></text:p>
@@ -2488,7 +2485,7 @@
       </draw:enhanced-geometry>
      </draw:custom-shape>
      <draw:g draw:name="titre formation">
-      <draw:custom-shape draw:name="Rectangle 117" draw:style-name="gr20" draw:text-style-name="P24" draw:layer="layout" svg:width="14.362cm" svg:height="0.843cm" svg:x="3.413cm" svg:y="25.81cm">
+      <draw:custom-shape draw:name="Rectangle 117" draw:style-name="gr20" draw:text-style-name="P24" draw:layer="layout" svg:width="14.362cm" svg:height="0.843cm" svg:x="3.413cm" svg:y="25.91cm">
        <text:p text:style-name="P23"><text:span text:style-name="T14">TRANSDEV</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T16">- (Intern) – Jun, 2014 &amp; Feb, 2015 – Apr, 2015</text:span></text:p>
        <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
         <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
@@ -2497,7 +2494,7 @@
         <draw:equation draw:name="f3" draw:formula="logwidth"/>
        </draw:enhanced-geometry>
       </draw:custom-shape>
-      <draw:connector draw:name="Connecteur droit 118" draw:style-name="gr13" draw:text-style-name="P22" draw:layer="layout" draw:type="line" svg:x1="3.679cm" svg:y1="26.632cm" svg:x2="20.599cm" svg:y2="26.562cm" svg:d="M3679 26632l16920-70" svg:viewBox="0 0 16921 71">
+      <draw:connector draw:name="Connecteur droit 118" draw:style-name="gr13" draw:text-style-name="P22" draw:layer="layout" draw:type="line" svg:x1="3.679cm" svg:y1="26.732cm" svg:x2="20.599cm" svg:y2="26.662cm" svg:d="M3679 26732l16920-70" svg:viewBox="0 0 16921 71">
        <text:p/>
       </draw:connector>
      </draw:g>
@@ -2576,7 +2573,7 @@
        <draw:equation draw:name="f3" draw:formula="logwidth"/>
       </draw:enhanced-geometry>
      </draw:custom-shape>
-     <draw:custom-shape draw:name="Bref" draw:style-name="gr26" draw:text-style-name="P31" draw:layer="layout" svg:width="6.82cm" svg:height="1.773cm" svg:x="5.58cm" svg:y="3.317cm">
+     <draw:custom-shape draw:name="Bref" draw:style-name="gr26" draw:text-style-name="P31" draw:layer="layout" svg:width="6.82cm" svg:height="1.775cm" svg:x="5.58cm" svg:y="3.317cm">
       <text:list text:style-name="L10">
        <text:list-header>
         <text:p text:style-name="P29"><text:span text:style-name="T23"> </text:span><text:span text:style-name="T23">Car •  Motorcycle</text:span></text:p>
@@ -2721,7 +2718,7 @@
      </draw:custom-shape>
     </draw:g>
     <draw:custom-shape draw:name="description formation 11" draw:style-name="gr32" draw:text-style-name="P38" draw:layer="layout" svg:width="17.5cm" svg:height="3.489cm" svg:x="3.5cm" svg:y="6.68cm">
-     <text:p text:style-name="P36"><text:span text:style-name="T29">Open Source</text:span><text:span text:style-name="T30"> enthusiast, </text:span><text:span text:style-name="T29">automation</text:span><text:span text:style-name="T30"> lover and </text:span><text:span text:style-name="T29">micro-services</text:span><text:span text:style-name="T30"> breeder!</text:span></text:p>
+     <text:p text:style-name="P36"><text:span text:style-name="T29">Open Source</text:span><text:span text:style-name="T8"> enthusiast, </text:span><text:span text:style-name="T29">automation</text:span><text:span text:style-name="T8"> lover and </text:span><text:span text:style-name="T29">micro-services</text:span><text:span text:style-name="T8"> breeder!</text:span></text:p>
      <text:p text:style-name="P36"><text:span text:style-name="T8"/></text:p>
      <text:list text:style-name="L17">
       <text:list-item>
@@ -2740,7 +2737,7 @@
      </text:list>
      <text:list text:style-name="L20">
       <text:list-item>
-       <text:p text:style-name="P37"><text:span text:style-name="T29">Passionate</text:span><text:span text:style-name="T30"> – I travel whenever my IT or mechanical projects allow me to do so.</text:span></text:p>
+       <text:p text:style-name="P37"><text:span text:style-name="T29">Passionate</text:span><text:span text:style-name="T8"> – I travel whenever my IT or mechanical projects allow me to do so.</text:span></text:p>
       </text:list-item>
      </text:list>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
@@ -2775,31 +2772,38 @@
       <draw:equation draw:name="f19" draw:formula="(5400000)/60000.0"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="description formation 12" draw:style-name="gr34" draw:text-style-name="P35" draw:layer="layout" svg:width="17.16cm" svg:height="6.281cm" svg:x="3.34cm" svg:y="16.302cm">
+    <draw:custom-shape draw:name="description formation 12" draw:style-name="gr34" draw:text-style-name="P35" draw:layer="layout" svg:width="17.16cm" svg:height="6.909cm" svg:x="3.34cm" svg:y="16.302cm">
      <text:p text:style-name="P34"><text:span text:style-name="T29">12</text:span><text:span text:style-name="T30"> business sectors within my scope: energy, luxury goods, agri-food, government...</text:span></text:p>
      <text:p text:style-name="P34"><text:span text:style-name="T29">8 </text:span><text:span text:style-name="T31">Move to Cloud</text:span><text:span text:style-name="T30"> transitions: existing context, homogenization, deployment.</text:span></text:p>
      <text:p text:style-name="P34"><text:span text:style-name="T32">1</text:span><text:span text:style-name="T33"> </text:span><text:span text:style-name="T34">reporting</text:span><text:span text:style-name="T33"> solution implemented, included in offers: </text:span><text:span text:style-name="T32">23</text:span><text:span text:style-name="T33"> subscriber contracts.</text:span></text:p>
+     <text:p text:style-name="P34"><text:span text:style-name="T32">3</text:span><text:span text:style-name="T33"> Pre-sales for a customized reporting solution.</text:span></text:p>
      <text:list text:style-name="L6">
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Design of Docker-contained solutions (compose, SWARM and Kubernetes)</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Design of Docker-contained solutions (compose, SWARM and Kubernetes)</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Building integration pipelines (CI with GitHub Actions, Azure DevOps)</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Building integration pipelines (CI with GitHub Actions, Azure DevOps)</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Building deployment pipelines (CD with Ansible)</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Building deployment pipelines (CD with Ansible)</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Process automation (Selenium, Ansible)</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Process automation (Selenium, Ansible)</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Development and architecture: REST API with Django, web portal with Angular</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Development and architecture: REST API with Django, web portal with Angular</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Set-up of ETLs to collect data from various sources: CMDB, Supervision, databases</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Set-up of ETLs to collect data from various sources: CMDB, Supervision, databases</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P34"><text:span text:style-name="T8">Terraform deployments under Kubernetes or directly in CaaS mode under Azure, AWS and GCP</text:span></text:p>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Terraform deployments under Kubernetes or directly in CaaS mode under Azure, AWS and GCP</text:span></text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Design of schematics: High-Level Design , Low-Level Design, Global Architecture Diagram</text:span></text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P39"><text:span text:style-name="T8">Writing documentations: Technical Architecture Documentation, Operating Documentation</text:span></text:p>
       </text:list-item>
      </text:list>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
@@ -2825,7 +2829,7 @@
     </draw:g>
     <draw:frame draw:style-name="gr36" draw:text-style-name="P40" draw:layer="layout" svg:width="3.5cm" svg:height="0.73cm" svg:x="0cm" svg:y="28.868cm">
      <draw:text-box>
-      <text:p text:style-name="P39"><text:span text:style-name="T35">Xavier</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">BRASSOUD</text:span></text:p>
+      <text:p><text:span text:style-name="T35">Xavier</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">BRASSOUD</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr36" draw:text-style-name="P42" draw:layer="layout" svg:width="3.5cm" svg:height="0.73cm" svg:x="17.5cm" svg:y="28.865cm">
@@ -3012,15 +3016,15 @@
      </draw:connector>
     </draw:g>
     <draw:g draw:name="Section formation 5">
-     <draw:custom-shape draw:name="description formation 5" draw:style-name="gr48" draw:text-style-name="P48" draw:layer="layout" svg:width="16.633cm" svg:height="6.621cm" svg:x="3.414cm" svg:y="2.051cm">
-      <text:p text:style-name="P46"><text:span text:style-name="T44">Docker, Kubernetes</text:span><text:span text:style-name="T45"> - Segmentation of services into containers within a production infrastructure. Setting up containers to host test services during the development phase. Setting up microservices, such as authentication gateways.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T46"></text:span><text:span text:style-name="T47">Harbor</text:span><text:span text:style-name="T48"> </text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">AWS Registry <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">SWARM <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Compose </text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">HELM </text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Argo CD </text:span><text:span text:style-name="T49"></text:span><text:span text:style-name="T50">KeyCloak</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T50"/></text:p>
-      <text:p text:style-name="P46"><text:span text:style-name="T44">Git, Continuous Integration (CI)</text:span><text:span text:style-name="T45"> - Code versioning with automated testing (unit and integration tests), quality (lint, static analysis) and security (vulnerability scans) using GitHub, GitLab and/or Jenkins.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Git <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Ansible <text:s text:c="2"/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">GitHub <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">GitHub-Actions <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">GitLab <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Jenkins </text:span><text:span text:style-name="T49"></text:span><text:span text:style-name="T50">Azure-DevOps </text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T50"/></text:p>
-      <text:p text:style-name="P46"><text:span text:style-name="T44">IaC, Continuous Deployment (CD)</text:span><text:span text:style-name="T45"> - Terraform deployments on Kubernetes or directly in CaaS mode on Azure, AWS and GCP. Implementation of observability solutions (Prometheus) and cost evaluation (FinOps).</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Terraform </text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Azure </text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">AWS <text:s/></text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T51">GCP</text:span><text:span text:style-name="T48"> </text:span><text:span text:style-name="T46"></text:span><text:span text:style-name="T48">Prometheus <text:s/></text:span><text:span text:style-name="T49"></text:span><text:span text:style-name="T52">FinOps</text:span></text:p>
+     <draw:custom-shape draw:name="description formation 5" draw:style-name="gr48" draw:text-style-name="P48" draw:layer="layout" svg:width="16.633cm" svg:height="6.623cm" svg:x="3.414cm" svg:y="2.051cm">
+      <text:p text:style-name="P46"><text:span text:style-name="T43">Docker, Kubernetes</text:span><text:span text:style-name="T42"> - Segmentation of services into containers within a production infrastructure. Setting up containers to host test services during the development phase. Setting up microservices, such as authentication gateways.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T44"></text:span><text:span text:style-name="T45">Harbor</text:span><text:span text:style-name="T46"> </text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">AWS Registry <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">SWARM <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Compose </text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">HELM </text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Argo CD </text:span><text:span text:style-name="T47"></text:span><text:span text:style-name="T48">KeyCloak</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T48"/></text:p>
+      <text:p text:style-name="P46"><text:span text:style-name="T43">Git, Continuous Integration (CI)</text:span><text:span text:style-name="T42"> - Code versioning with automated testing (unit and integration tests), quality (lint, static analysis) and security (vulnerability scans) using GitHub, GitLab and/or Jenkins.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Git <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Ansible <text:s text:c="2"/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">GitHub <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">GitHub-Actions <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">GitLab <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Jenkins </text:span><text:span text:style-name="T47"></text:span><text:span text:style-name="T48">Azure-DevOps </text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T48"/></text:p>
+      <text:p text:style-name="P46"><text:span text:style-name="T43">IaC, Continuous Deployment (CD)</text:span><text:span text:style-name="T42"> - Terraform deployments on Kubernetes or directly in CaaS mode on Azure, AWS and GCP. Implementation of observability solutions (Prometheus) and cost evaluation (FinOps).</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Terraform </text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Azure </text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">AWS <text:s/></text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T49">GCP</text:span><text:span text:style-name="T46"> </text:span><text:span text:style-name="T44"></text:span><text:span text:style-name="T46">Prometheus <text:s/></text:span><text:span text:style-name="T47"></text:span><text:span text:style-name="T50">FinOps</text:span></text:p>
       <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
        <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
        <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -3069,7 +3073,7 @@
      </draw:enhanced-geometry>
     </draw:custom-shape>
     <draw:custom-shape draw:name="description formation 2" draw:style-name="gr51" draw:text-style-name="P24" draw:layer="layout" svg:width="16.582cm" svg:height="1.097cm" svg:x="3.349cm" svg:y="15.957cm">
-     <text:p text:style-name="P23"><text:span text:style-name="T53">Studies completed during the 2016-2017 year at the Grenoble Alpes University (Grenoble, France) for the Computer Network Mobility and Security (</text:span><text:span text:style-name="T42">CNMS</text:span><text:span text:style-name="T53">) </text:span><text:span text:style-name="T43">professional bachelor’s degree</text:span><text:span text:style-name="T53">.</text:span></text:p>
+     <text:p text:style-name="P23"><text:span text:style-name="T51">Studies completed during the 2016-2017 year at the Grenoble Alpes University (Grenoble, France) for the Computer Network Mobility and Security (</text:span><text:span text:style-name="T42">CNMS</text:span><text:span text:style-name="T51">) </text:span><text:span text:style-name="T43">professional bachelor’s degree</text:span><text:span text:style-name="T51">.</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -3079,7 +3083,7 @@
     </draw:custom-shape>
     <draw:g draw:name="titre formation 2">
      <draw:custom-shape draw:name="Rectangle 14" draw:style-name="gr52" draw:text-style-name="P24" draw:layer="layout" svg:width="16.929cm" svg:height="0.843cm" svg:x="3.361cm" svg:y="15.072cm">
-      <text:p text:style-name="P23"><text:span text:style-name="T14">PROFESSIONAL BACHELOR&apos;S DEGREE</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T16">- with honours • Jun, 2017</text:span></text:p>
+      <text:p text:style-name="P23"><text:span text:style-name="T14">PROFESSIONAL BACHELOR&apos;S DEGREE</text:span><text:span text:style-name="T52"> </text:span><text:span text:style-name="T16">- with honours • Jun, 2017</text:span></text:p>
       <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
        <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
        <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -3127,7 +3131,7 @@
     </draw:custom-shape>
     <draw:g draw:name="titre formation 3">
      <draw:custom-shape draw:name="Rectangle 15" draw:style-name="gr55" draw:text-style-name="P24" draw:layer="layout" svg:width="15.263cm" svg:height="0.843cm" svg:x="3.361cm" svg:y="17.342cm">
-      <text:p text:style-name="P23"><text:span text:style-name="T14">BTEC HIGHER NATIONAL DIPLOMATS</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T16">- with honours • Jun, 2015</text:span></text:p>
+      <text:p text:style-name="P23"><text:span text:style-name="T14">BTEC HIGHER NATIONAL DIPLOMATS</text:span><text:span text:style-name="T52"> </text:span><text:span text:style-name="T16">- with honours • Jun, 2015</text:span></text:p>
       <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
        <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
        <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -3230,7 +3234,7 @@
        <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Monitoring</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Security (</text:span><text:span text:style-name="T55">Pentests</text:span><text:span text:style-name="T42">)</text:span></text:p>
+       <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Security (</text:span><text:span text:style-name="T53">Pentests</text:span><text:span text:style-name="T42">)</text:span></text:p>
       </text:list-item>
      </text:list>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
@@ -3262,19 +3266,19 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="description formation 9" draw:style-name="gr62" draw:text-style-name="P51" draw:layer="layout" svg:width="6.331cm" svg:height="1.943cm" svg:x="15.119cm" svg:y="9.642cm">
+    <draw:custom-shape draw:name="description formation 9" draw:style-name="gr62" draw:text-style-name="P52" draw:layer="layout" svg:width="6.331cm" svg:height="1.943cm" svg:x="15.119cm" svg:y="9.642cm">
      <text:list text:style-name="L16">
       <text:list-item>
-       <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Application design</text:span></text:p>
+       <text:p text:style-name="P51"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Application design</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Databases</text:span></text:p>
+       <text:p text:style-name="P51"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Databases</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">OOP (.NET, Java, Go)</text:span></text:p>
+       <text:p text:style-name="P51"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">OOP (.NET, Java, Go)</text:span></text:p>
       </text:list-item>
       <text:list-item>
-       <text:p text:style-name="P23"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Web (Angular, Django) </text:span></text:p>
+       <text:p text:style-name="P51"><text:span text:style-name="T42"><text:s/></text:span><text:span text:style-name="T42">Web (Angular, Django) </text:span></text:p>
       </text:list-item>
      </text:list>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
@@ -3373,8 +3377,8 @@
      </draw:custom-shape>
     </draw:g>
     <draw:g draw:name="Section formation 4">
-     <draw:custom-shape draw:name="Icone formation 4" draw:style-name="gr67" draw:text-style-name="P53" draw:layer="layout" svg:width="1.077cm" svg:height="1.077cm" svg:x="1.762cm" svg:y="21.127cm">
-      <text:p text:style-name="P52"><text:span text:style-name="T12"></text:span></text:p>
+     <draw:custom-shape draw:name="Icone formation 4" draw:style-name="gr67" draw:text-style-name="P54" draw:layer="layout" svg:width="1.077cm" svg:height="1.077cm" svg:x="1.762cm" svg:y="21.127cm">
+      <text:p text:style-name="P53"><text:span text:style-name="T12"></text:span></text:p>
       <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f4 0 ?f5 ?f8 0 ?f7 ?f5 ?f9 ?f4 ?f11 ?f6 ?f9 ?f11 ?f7 ?f6 ?f8" draw:text-areas="?f5 ?f8 ?f6 ?f9" draw:type="ooxml-ellipse" draw:enhanced-path="M 0 ?f7 Z N" drawooo:enhanced-path="M 0 ?f7 G ?f0 ?f2 ?f12 ?f13 ?f0 ?f2 ?f14 ?f15 ?f0 ?f2 ?f16 ?f17 ?f0 ?f2 ?f18 ?f19 Z N">
        <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
        <draw:equation draw:name="f1" draw:formula="?f0 *cos(pi*(2700000)/10800000)"/>
@@ -3398,18 +3402,18 @@
        <draw:equation draw:name="f19" draw:formula="(5400000)/60000.0"/>
       </draw:enhanced-geometry>
      </draw:custom-shape>
-     <draw:custom-shape draw:name="description formation 4" draw:style-name="gr68" draw:text-style-name="P54" draw:layer="layout" svg:width="16.58cm" svg:height="7.019cm" svg:x="3.381cm" svg:y="21.551cm">
-      <text:p text:style-name="P47"><text:span text:style-name="T56">Dear Sir/Madam,</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56"/></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56">I had the good fortune to be Xavier </text:span><text:span text:style-name="T45">BRASSOUD’s</text:span><text:span text:style-name="T56"> tutor and team leader. During these 3 years, I have witnessed his </text:span><text:span text:style-name="T45">intrinsic</text:span><text:span text:style-name="T56"> </text:span><text:span text:style-name="T45">qualities.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T45">As a work-study student, he was the driving force behind the creation of a 3-tier application which is now integrated into all our pre-sales, as it sets us apart from our competitors.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T45">From a technical point of view, he is one of our best developers on the following technologies: Django, Angular, Containerization, CI/CD.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T45">On a human level, it’s a real pleasure to work with Xavier. He’s enterprising, innovative and a strong team player, always there to help his colleagues. He’s a serious person who can be relied on to move complicated issues forward.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56">Please don’t hesitate to contact me if you’d like to find out more about him.</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56"/></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56">Best regards</text:span></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56"/></text:p>
-      <text:p text:style-name="P47"><text:span text:style-name="T56">Raphaël MOTAIS DE NARBONNE</text:span></text:p>
+     <draw:custom-shape draw:name="description formation 4" draw:style-name="gr68" draw:text-style-name="P55" draw:layer="layout" svg:width="16.58cm" svg:height="7.019cm" svg:x="3.381cm" svg:y="21.551cm">
+      <text:p text:style-name="P47"><text:span text:style-name="T54">Dear Sir/Madam,</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54"/></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54">I had the good fortune to be Xavier </text:span><text:span text:style-name="T42">BRASSOUD’s</text:span><text:span text:style-name="T54"> tutor and team leader. During these 3 years, I have witnessed his </text:span><text:span text:style-name="T42">intrinsic</text:span><text:span text:style-name="T54"> </text:span><text:span text:style-name="T42">qualities.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T42">As a work-study student, he was the driving force behind the creation of a 3-tier application which is now integrated into all our pre-sales, as it sets us apart from our competitors.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T42">From a technical point of view, he is one of our best developers on the following technologies: Django, Angular, Containerization, CI/CD.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T42">On a human level, it’s a real pleasure to work with Xavier. He’s enterprising, innovative and a strong team player, always there to help his colleagues. He’s a serious person who can be relied on to move complicated issues forward.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54">Please don’t hesitate to contact me if you’d like to find out more about him.</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54"/></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54">Best regards</text:span></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54"/></text:p>
+      <text:p text:style-name="P47"><text:span text:style-name="T54">Raphaël MOTAIS DE NARBONNE</text:span></text:p>
       <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
        <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
        <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -3419,7 +3423,7 @@
      </draw:custom-shape>
      <draw:g draw:name="titre formation 4">
       <draw:custom-shape draw:name="Rectangle 18" draw:style-name="gr69" draw:text-style-name="P24" draw:layer="layout" svg:width="15.315cm" svg:height="0.843cm" svg:x="3.393cm" svg:y="20.666cm">
-       <text:p text:style-name="P23"><text:span text:style-name="T14">Capgemini Manager </text:span><text:span text:style-name="T57">-</text:span><text:span text:style-name="T16"> Raphaël MOTAIS DE NARBONNE</text:span></text:p>
+       <text:p text:style-name="P23"><text:span text:style-name="T14">Capgemini Manager </text:span><text:span text:style-name="T55">-</text:span><text:span text:style-name="T16"> Raphaël MOTAIS DE NARBONNE</text:span></text:p>
        <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
         <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
         <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -3434,7 +3438,7 @@
     </draw:g>
     <draw:frame draw:style-name="gr36" draw:text-style-name="P40" draw:layer="layout" svg:width="3.5cm" svg:height="0.73cm" svg:x="0cm" svg:y="28.869cm">
      <draw:text-box>
-      <text:p text:style-name="P39"><text:span text:style-name="T35">Xavier</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">BRASSOUD</text:span></text:p>
+      <text:p><text:span text:style-name="T35">Xavier</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">BRASSOUD</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr36" draw:text-style-name="P42" draw:layer="layout" svg:width="3.5cm" svg:height="0.73cm" svg:x="17.5cm" svg:y="28.866cm">

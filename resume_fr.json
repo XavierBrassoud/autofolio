@@ -82,9 +82,13 @@
         "Automatisation des processus (Selenium, Ansible)",
         "Développement et architecture : API REST sous Django, portail web sous Angular",
         "Mise en place d’ETL collecteurs de sources diverses : CMDB, Supervision, BDD",
-        "Déploiements Terraform sous Kubernetes ou directement en mode CaaS sous Azure, AWS et GCP"
+        "Déploiements Terraform sous Kubernetes ou directement en mode CaaS sous Azure, AWS et GCP",
+        "Production des schémas types : High-Level Design (HLD), Low-Level Design (LLD), Schéma Architecture Global",
+        "Production des matrices types : Flux réseaux, RBAC",
+        "Rédaction des documentations types : Documentation d’Architecture Technique (DAT), Documentation d’Exploitation (DEX)",
+        "Présentations en comité d’architecture ou d'exploitation"
       ],
-      "summary": "*Deux premières années en alternance Master TRI*\n\n**12** secteurs d'activités sous mon périmètre : de l'énergie à l'industrie du luxe.\n\n**8** transitions ***Move to Cloud*** : contexte existant, homogénéisation, déploiement.\n\n**1** solution de *reporting* réalisée, incluse aux offres : **23** contrats souscripteurs.",
+      "summary": "*Deux premières années en alternance Master TRI*\n\n**12** secteurs d'activités sous mon périmètre : de l'énergie à l'industrie du luxe.\n\n**8** transitions ***Move to Cloud*** : contexte existant, homogénéisation, déploiement.\n\n**1** solution de *reporting* réalisée, incluse aux offres : **23** contrats souscripteurs.\n\n**3** Avant-Ventes d’une solution de *reporting* personnalisée",
       "url": "https://www.capgemini.com/",
       "location": "Bourget-du-Lac, France"
     },
@@ -654,6 +658,7 @@
   ],
   "meta": {
     "version": "1.0.0",
+    "lastModified": "2024-01-01T00:00:00",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }
 }
