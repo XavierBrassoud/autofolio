@@ -646,7 +646,7 @@
     }
   ],
   "meta": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "lastModified": "2024-01-01T00:00:00",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
   }
