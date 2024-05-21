@@ -12,6 +12,3 @@ languages:
 enableMissingTranslationPlaceholders: true
 enableRobotsTXT: true
 unsafe: true
-# module:
-#   imports:
-#   - path: github.com/XavierBrassoud/hugo-theme-vertica-resume@v1.0.0

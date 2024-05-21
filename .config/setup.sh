@@ -55,15 +55,14 @@ rm -rf $HUGO_ROOT_DIR
 ###############################################################################
 
 hugo new site $HUGO_ROOT_DIR
-cd $HUGO_ROOT_DIR
-hugo mod init github.com/XavierBrassoud/autofolio
-cd ..
+
 [ -e $HUGO_ROOT_DIR/hugo.toml ] && rm $HUGO_ROOT_DIR/hugo.toml
 [ -e $HUGO_ROOT_DIR/config.toml ] && rm $HUGO_ROOT_DIR/config.toml
 mkdir -p $HUGO_CONTENT_DIR/json_resume
 mkdir -p $HUGO_DATA_DIR
 
 cp $CONF_DIR/hugo.yaml $HUGO_ROOT_DIR/hugo.yaml
+cp $CONF_DIR/go.mod $HUGO_ROOT_DIR/go.mod
 cp CHANGELOG.md $HUGO_CONTENT_DIR/json_resume/CHANGELOG.md
 cp resume_en.json $HUGO_DATA_DIR/en.json
 cp resume_fr.json $HUGO_DATA_DIR/fr.json
