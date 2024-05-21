@@ -46,8 +46,8 @@ HUGO_ASSETS_DIR=$HUGO_ROOT_DIR/assets
 ###############################################################################
 
 # remove previous build
-unlink .hugo/data/json_resume/fr.json
-unlink .hugo/data/json_resume/en.json
+[ -e $HUGO_DATA_DIR/fr.json ] && unlink $HUGO_DATA_DIR/fr.json
+[ -e $HUGO_DATA_DIR/en.json ] && unlink $HUGO_DATA_DIR/en.json
 rm -rf $HUGO_ROOT_DIR
 
 ###############################################################################
