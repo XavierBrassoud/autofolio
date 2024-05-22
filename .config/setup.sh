@@ -69,9 +69,10 @@ cp resume_fr.json $HUGO_DATA_DIR/fr.json
 cp $CONF_DIR/favicon.ico $HUGO_STATIC_DIR
 cp -r img $HUGO_ASSETS_DIR
 
-# setup the HuGo theme
+# setup the HuGo theme with pined version
+# https://github.com/gohugoio/hugo/issues/11857
 cd $HUGO_ROOT_DIR
-hugo mod get github.com/XavierBrassoud/hugo-theme-vertica-resume
+hugo config >/dev/null 2>&1
 cd ..
 
 
