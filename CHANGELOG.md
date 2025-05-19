@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/XavierBrassoud/autofolio/compare/v1.0.1...v1.1.0) (2025-05-19)
+
+
+### Features
+
+* **work:** Add Overkiz experience ([#12](https://github.com/XavierBrassoud/autofolio/issues/12)) ([a16475d](https://github.com/XavierBrassoud/autofolio/commit/a16475d85e1d43043b518aa0ba2e0b636a71be22))
+
 ## [1.0.1](https://github.com/XavierBrassoud/autofolio/compare/v1.0.0...v1.0.1) (2024-05-21)
 
 
