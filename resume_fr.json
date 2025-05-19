@@ -53,17 +53,29 @@
         "alternateName": "A",
         "icon": "motorcycle"
       }
-    ],
-    "citation": {
-      "author": "Henri-Frédéric Amiel",
-      "quote": "Faire aisément ce que d'autres trouvent difficile à réaliser c'est le talent ; faire ce qui est impossible au talent, c'est le génie."
-    }
+    ]
   },
   "work": [
+    {
+      "name": "Overkiz",
+      "position": "Ingénieur DevOps & Production",
+      "startDate": "2024-06-01",
+      "highlights": [
+        "Administration Proxmox & Kubernetes en production",
+        "Développement Infrastructure as Code (OpenTofu/Terraform, HELM)",
+        "Développement Configuration as Code (Ansible, Puppet)",
+        "Déploiement et configuration des sondes d'observabilités Prometheus Grafana (LGTM)",
+        "Support de production avancé (niv. 3) : Debian, Proxmox, Kafka, Cassandra, PostgresSQL"
+      ],
+      "summary": "(Prestation Scalian) - Ingénieur DevOps & Production. Accompagnement vers une transition en micro-service du monolithe principal de l'entreprise.",
+      "url": "https://www.overkiz.com/",
+      "location": "Annecy, France"
+    },
     {
       "name": "BXB Services",
       "position": "Entrepreneur individuel",
       "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
       "highlights": [
         "Création d’une entreprise individuelle « BXB Services » dans le but de valoriser mes compétences par le biais de développement applicatif.",
         "Activités : freelancing, revenus secondaires (publicité, abonnement, affiliations)."
@@ -83,9 +95,9 @@
         "Développement et architecture : API REST sous Django, portail web sous Angular",
         "Mise en place d’ETL collecteurs de sources diverses : CMDB, Supervision, BDD",
         "Déploiements Terraform sous Kubernetes ou directement en mode CaaS sous Azure, AWS et GCP",
-        "Production des schémas types : High-Level Design (HLD), Low-Level Design (LLD), Schéma Architecture Global",
-        "Production des matrices types : Flux réseaux, RBAC",
-        "Rédaction des documentations types : Documentation d’Architecture Technique (DAT), Documentation d’Exploitation (DEX)",
+        "Production des schémas types : High-Level Design (HLD), Low-Level Design (LLD), Schéma Architecture Global",
+        "Production des matrices types : Flux réseaux, RBAC",
+        "Rédaction des documentations types : Documentation d’Architecture Technique (DAT), Documentation d’Exploitation (DEX)",
         "Présentations en comité d’architecture ou d'exploitation"
       ],
       "summary": "*Deux premières années en alternance Master TRI*\n\n**12** secteurs d'activités sous mon périmètre : de l'énergie à l'industrie du luxe.\n\n**8** transitions ***Move to Cloud*** : contexte existant, homogénéisation, déploiement.\n\n**1** solution de *reporting* réalisée, incluse aux offres : **23** contrats souscripteurs.\n\n**3** Avant-Ventes d’une solution de *reporting* personnalisée",
