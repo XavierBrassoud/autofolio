@@ -111,3 +111,5 @@ jobs:
           name: ${{ inputs.artifact_name }}
           path: .hugo
           retention-days: ${{ inputs.artifact_retention }} # trigger manually this workflow if you need a fresh one
+          if-no-files-found: error
+          include-hidden-files: true
