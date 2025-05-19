@@ -53,17 +53,29 @@
         "alternateName": "A",
         "icon": "motorcycle"
       }
-    ],
-    "citation": {
-      "author": "Henri-Frédéric Amiel",
-      "quote": "Doing easily what others find difficult is talent; doing what is impossible for talent is genius."
-    }
+    ]
   },
   "work": [
+    {
+      "name": "Overkiz",
+      "position": "DevOps & Production Engineer",
+      "startDate": "2024-06-01",
+      "highlights": [
+        "Proxmox & Kubernetes administration in production",
+        "Infrastructure as Code (OpenTofu/Terraform, HELM)",
+        "Configuration as Code (Ansible, Puppet)",
+        "Deployment and configuration of Prometheus/Grafana observability probes (LGTM)",
+        "Advanced production support (level 3) for Debian, Proxmox, Kafka, Cassandra, PostgresSQL"
+      ],
+      "summary": "*Consultant at Scalian*\n\nDevOps & Production Engineer. Support in transitioning the company's main monolith to microservices.",
+      "url": "https://www.overkiz.com/",
+      "location": "Annecy, France"
+    },
     {
       "name": "BXB Services",
       "position": "Freelance",
       "startDate": "2024-01-01",
+      "endDate": "2024-12-31",
       "highlights": [
         "Creation of a sole proprietorship « BXB Services » with the aim of adding value to my skills through application development.",
         "Activities: freelancing, secondary income (advertising, subscriptions, affiliations)."
