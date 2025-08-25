@@ -61,7 +61,7 @@ jobs:
 
       - name: Archive dist
         if: success()
-        uses: actions/upload-pages-artifact@v3 # upload-pages-artifact is less permissive than upload-artifact
+        uses: actions/upload-pages-artifact@v4 # upload-pages-artifact is less permissive than upload-artifact
         with:
           name: ${{ inputs.artifact_name }}_dist
           path: .hugo/public
